@@ -5,10 +5,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Globalt Lato-typsnitt för hela sidan */
 @layer base {
   html,
-  body {
-    font-family: 'Lato', sans-serif;
+  body,
+  nav,
+  main,
+  section,
+  footer {
+    font-family: 'Lato', sans-serif !important;
+    background-color: #d6d0c0 !important;
   }
 }
