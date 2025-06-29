@@ -1,4 +1,3 @@
-// src/components/Hero.js
 export default function Hero() {
   return (
     <section className="flex flex-col lg:flex-row items-center bg-gray-100">

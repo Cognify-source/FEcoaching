@@ -1,9 +1,7 @@
 export default function Navbar() {
   return (
     <nav className="flex items-center justify-between px-6 py-4 bg-white shadow-sm">
-      <a href="/" className="text-xl font-bold">
-        YOURLOGO
-      </a>
+      <a href="/" className="text-xl font-bold">YOURLOGO</a>
       <ul className="hidden md:flex space-x-6 text-gray-700">
         {['About','Get Started','Podcast','Blog','Shop'].map(label => (
           <li key={label}>
