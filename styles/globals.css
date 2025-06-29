@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Applicera bakgrundsfärg globalt */
+/* Applicera bakgrundsfärg globalt på body och alla section-element */
 @layer base {
   body {
+    background-color: #d6d0c0;
+  }
+  section {
     background-color: #d6d0c0;
   }
 }
