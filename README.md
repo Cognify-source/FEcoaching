@@ -1,2 +1,0 @@
-# FEcoaching
-Fredrik Ekholm Coaching
