@@ -5,14 +5,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Globalt Lato-typsnitt på alla element och bibehållen bakgrundsfärg */
 @layer base {
+  /* Applicera Lato överallt, oavsett Tailwind-utils */
+  *, *::before, *::after {
+    font-family: 'Lato', sans-serif !important;
+  }
+  /* Säkerställ att bakgrundsfärgen ligger kvar överallt */
   html,
   body,
   nav,
-  main,
   section,
+  main,
   footer {
-    font-family: 'Lato', sans-serif !important;
     background-color: #d6d0c0 !important;
   }
 }
