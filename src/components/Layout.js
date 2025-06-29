@@ -12,10 +12,10 @@ export default function Layout({ children }) {
         Tre kolumner:
         • Vänster (hero-bild, 1/3 av bredden på desktop)
         • Mitt (dynamiskt innehåll, alltid 1/3 av bredden)
-        • Höger (tom, 1/3 av bredden) 
-        Nav och footer är fasta över/under, innehållet centrerat.
+        • Höger (tom, 1/3 av bredden)
+        Bakgrunden är satt globalt till #d6d0c0, så vi tar bort bg-gray-100 här.
       */}
-      <div className="flex min-h-screen pt-16 pb-16 bg-gray-100">
+      <div className="flex min-h-screen pt-16 pb-16">
         {/* 1) Hero-bild, dold på små skärmar */}
         <div className="hidden lg:block lg:w-1/3 h-full">
           <img
