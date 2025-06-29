@@ -1,19 +1,21 @@
 // src/components/Navbar.js
-import Link from 'next/link'
+import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-between px-6 py-4 bg-transparent">
-      {/* Logo */}
-      <Link href="/" legacyBehavior>
-        <a className="text-xl">
-          <span className="font-extrabold">FREDRIK EKHOLM</span>{' '}
-          <span className="font-light">COACHING</span>
-        </a>
-      </Link>
+    <nav className="grid grid-cols-3 items-center px-6 py-4 bg-transparent">
+      {/* 1) Logo - vänsterställd */}
+      <div className="justify-self-start">
+        <Link href="/" legacyBehavior>
+          <a className="text-xl">
+            <span className="font-extrabold">FREDRIK EKHOLM</span>{' '}
+            <span className="font-light">COACHING</span>
+          </a>
+        </Link>
+      </div>
 
-      {/* Meny med client-side navigation */}
-      <ul className="hidden md:flex space-x-12">
+      {/* 2) Meny - centrerad */}
+      <ul className="flex justify-center space-x-12">
         <li>
           <Link href="/om-mig" legacyBehavior>
             <a className="hover:text-gray-900">OM MIG</a>
@@ -41,10 +43,12 @@ export default function Navbar() {
         </li>
       </ul>
 
-      {/* Mobil-meny-knapp */}
-      <div className="flex items-center space-x-4 md:hidden">
-        <button aria-label="Open menu">☰</button>
+      {/* 3) Ikoner/hamburgermeny - högerställd */}
+      <div className="flex justify-end space-x-4">
+        <button aria-label="Search">🔍</button>
+        <button aria-label="Cart">🛒</button>
+        <button className="md:hidden" aria-label="Menu">☰</button>
       </div>
     </nav>
-  )
+  );
 }
