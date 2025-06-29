@@ -1,9 +1,9 @@
 // src/components/Navbar.js
-import Link from 'next/link'
+import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <nav className="grid grid-cols-3 items-center px-6 py-4 bg-transparent">
+    <nav className="fixed top-0 left-0 w-full grid grid-cols-3 items-center bg-transparent px-6 py-4 z-50">
       {/* Vänster: logo */}
       <div className="justify-self-start">
         <Link href="/" legacyBehavior>
@@ -48,5 +48,4 @@ export default function Navbar() {
         <button aria-label="Open menu">☰</button>
       </div>
     </nav>
-  )
 }
