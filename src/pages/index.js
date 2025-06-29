@@ -1,11 +1,11 @@
-import Layout from "../components/Layout";
-import Hero   from "../components/Hero";
+// src/pages/index.js
+import Hero from "../components/Hero";
 
 export default function Home() {
   return (
-    <Layout>
+    <>
       <Hero />
-      {/* Fler sektioner kan du lägga till här */}
-    </Layout>
+      {/* Lägg till fler sektioner här */}
+    </>
   );
 }
