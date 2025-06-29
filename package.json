@@ -1,17 +1,20 @@
 {
-  "name": "fecoaching",
-  "version": "1.0.0",
-  "description": "Fredrik Ekholm Coaching",
-  "main": "tailwind.config.js",
+  "name": "my-nextjs-site",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
   "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^3.4.7",
+    "postcss": "^8.4.21",
+    "autoprefixer": "^10.4.14"
   }
 }
