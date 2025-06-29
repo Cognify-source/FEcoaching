@@ -3,13 +3,14 @@
 export default function Navbar() {
   return (
     <nav className="flex items-center justify-between px-6 py-4 bg-transparent">
-      {/* Logo */}
-      <a href="/" className="text-xl font-bold">
-        FREDRIK EKHOLM COACHING
+      {/* Logo med olika vikt */}
+      <a href="/" className="text-xl">
+        <span className="font-extrabold">FREDRIK EKHOLM</span>{' '}
+        <span className="font-light">COACHING</span>
       </a>
 
-      {/* Meny */}
-      <ul className="hidden md:flex space-x-6">
+      {/* Meny med större spacing */}
+      <ul className="hidden md:flex space-x-12">
         <li><a href="/om-mig" className="hover:text-gray-900">OM MIG</a></li>
         <li><a href="/for-foretag" className="hover:text-gray-900">FÖR FÖRETAG</a></li>
         <li><a href="/for-privatpersoner" className="hover:text-gray-900">FÖR PRIVATPERSONER</a></li>
