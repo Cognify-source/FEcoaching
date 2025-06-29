@@ -1,6 +1,7 @@
 // src/components/Layout.js
-import Navbar from './Navbar';
-import Footer from './Footer';
+
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 export default function Layout({ children }) {
   return (
@@ -8,15 +9,15 @@ export default function Layout({ children }) {
       <Navbar />
 
       {/* 
-        Grid med tre kolumner: 
-        1) statisk hero-bild 
-        2) dynamiskt innehåll 
-        3) tom kolumn för centrering 
-        Padding top/bottom motsvarar nav & footer-höjd
+        Tre kolumner:
+        • Vänster (hero-bild, 1/3 av bredden på desktop)
+        • Mitt (dynamiskt innehåll, alltid 1/3 av bredden)
+        • Höger (tom, 1/3 av bredden) 
+        Nav och footer är fasta över/under, innehållet centrerat.
       */}
-      <section className="grid grid-cols-1 lg:grid-cols-3 min-h-screen bg-gray-100 items-stretch pt-16 pb-16">
-        {/* 1. Statisk vänsterkolumn med hero-bilden */}
-        <div className="hidden lg:block h-full">
+      <div className="flex min-h-screen pt-16 pb-16 bg-gray-100">
+        {/* 1) Hero-bild, dold på små skärmar */}
+        <div className="hidden lg:block lg:w-1/3 h-full">
           <img
             src="/images/hero.png"
             alt="Hero"
@@ -24,18 +25,18 @@ export default function Layout({ children }) {
           />
         </div>
 
-        {/* 2. Dynamisk mittkolumn där {children} byts ut */}
-        <div className="flex items-center justify-center px-6">
-          <div className="w-full lg:w-2/3">
+        {/* 2) Dynamiskt innehåll – alltid 1/3 av bredden, centrerat */}
+        <main className="w-full lg:w-1/3 px-6 py-12 flex items-center justify-center">
+          <div className="w-full">
             {children}
           </div>
-        </div>
+        </main>
 
-        {/* 3. Tom högra kolumn för horisontell centrering */}
-        <div className="hidden lg:block" />
-      </section>
+        {/* 3) Tom högra kolumn för horisontell centrering */}
+        <div className="hidden lg:block lg:w-1/3" />
+      </div>
 
       <Footer />
     </>
-  );
+  )
 }
