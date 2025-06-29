@@ -3,8 +3,8 @@
 export default function Hero() {
   return (
     <section className="flex flex-col lg:flex-row items-center bg-gray-100">
-      {/* Bildsektion */}
-      <div className="w-full lg:w-1/2">
+      {/* Bildsektion: 1/3 bredd på desktop */}
+      <div className="w-full lg:w-1/3">
         <img
           src="/images/hero.png"
           alt="Hero"
@@ -12,8 +12,8 @@ export default function Hero() {
         />
       </div>
 
-      {/* Textsektion */}
-      <div className="w-full lg:w-1/2 px-6 py-12 text-center lg:text-left">
+      {/* Textsektion: 2/3 bredd på desktop */}
+      <div className="w-full lg:w-2/3 px-6 py-12 text-center lg:text-left">
         <h1 className="text-4xl font-serif text-gray-800 mb-4">
           Hey beautiful,
         </h1>
