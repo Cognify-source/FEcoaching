@@ -5,9 +5,9 @@ import Layout from "../components/Layout";
 export default function ForPrivatpersoner() {
   return (
     <Layout>
-      <section className="flex flex-col lg:flex-row items-center">
+      <section className="flex flex-col lg:flex-row items-center w-full lg:w-1/3 mx-auto">
         {/* Bildsektion */}
-        <div className="w-full lg:w-1/3">
+        <div className="w-full">
           <img
             src="/images/hero.png"
             alt="För privatpersoner"
@@ -16,7 +16,7 @@ export default function ForPrivatpersoner() {
         </div>
 
         {/* Textsektion med absolut placerad bild */}
-        <div className="w-full lg:w-2/3 px-6 py-12 text-center lg:text-left relative">
+        <div className="w-full px-6 py-12 text-center lg:text-left relative">
           <h1 className="text-4xl font-serif text-gray-800 mb-6">
             FÖR PRIVATPERSONER
           </h1>
@@ -34,11 +34,11 @@ export default function ForPrivatpersoner() {
             Välkommen att upptäcka hur IFS kan bli nyckeln till ett mer balanserat, meningsfullt och rikt liv.
           </p>
 
-          {/* Infogad bild längst ner till höger */}
+          {/* Infogad bild längst ner till höger, dubbelt så stor */}
           <img
             src="/images/privat_NY.png"
             alt="Privat Coaching"
-            className="absolute bottom-0 right-0 w-32 lg:w-48"
+            className="absolute bottom-0 right-0 w-64 lg:w-96"
           />
         </div>
       </section>

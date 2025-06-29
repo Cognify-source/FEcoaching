@@ -25,15 +25,10 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/for-foretag": [
+    "/for-privatpersoner": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/for-foretag.js"
-    ],
-    "/om-mig": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/om-mig.js"
+      "static/chunks/pages/for-privatpersoner.js"
     ]
   },
   "ampFirstPages": []
