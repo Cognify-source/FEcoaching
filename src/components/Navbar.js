@@ -1,5 +1,4 @@
 // src/components/Navbar.js
-
 import Link from 'next/link'
 
 export default function Navbar() {
@@ -44,7 +43,7 @@ export default function Navbar() {
         </li>
       </ul>
 
-      {/* Höger: ikon/hamburger (mobil) */}
+      {/* Höger (mobil): hamburgermeny */}
       <div className="flex justify-end space-x-4 md:hidden">
         <button aria-label="Open menu">☰</button>
       </div>
