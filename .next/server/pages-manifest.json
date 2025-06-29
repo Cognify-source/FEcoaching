@@ -3,7 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/for-privatpersoner": "pages/for-privatpersoner.js",
-  "/for-foretag": "pages/for-foretag.js",
-  "/om-mig": "pages/om-mig.js"
+  "/for-privatpersoner": "pages/for-privatpersoner.js"
 }
