@@ -1,10 +1,11 @@
 // src/components/Navbar.js
-import Link from 'next/link';
+
+import Link from 'next/link'
 
 export default function Navbar() {
   return (
     <nav className="grid grid-cols-3 items-center px-6 py-4 bg-transparent">
-      {/* 1) Logo - vänsterställd */}
+      {/* Vänster: logo */}
       <div className="justify-self-start">
         <Link href="/" legacyBehavior>
           <a className="text-xl">
@@ -14,41 +15,39 @@ export default function Navbar() {
         </Link>
       </div>
 
-      {/* 2) Meny - centrerad */}
+      {/* Mitten: länkar */}
       <ul className="flex justify-center space-x-12">
         <li>
           <Link href="/om-mig" legacyBehavior>
-            <a className="hover:text-gray-900">OM MIG</a>
+            <a>OM MIG</a>
           </Link>
         </li>
         <li>
           <Link href="/for-foretag" legacyBehavior>
-            <a className="hover:text-gray-900">FÖR FÖRETAG</a>
+            <a>FÖR FÖRETAG</a>
           </Link>
         </li>
         <li>
           <Link href="/for-privatpersoner" legacyBehavior>
-            <a className="hover:text-gray-900">FÖR PRIVATPERSONER</a>
+            <a>FÖR PRIVATPERSONER</a>
           </Link>
         </li>
         <li>
           <Link href="/metod" legacyBehavior>
-            <a className="hover:text-gray-900">METOD</a>
+            <a>METOD</a>
           </Link>
         </li>
         <li>
           <Link href="/kontakt" legacyBehavior>
-            <a className="hover:text-gray-900">KONTAKT</a>
+            <a>KONTAKT</a>
           </Link>
         </li>
       </ul>
 
-      {/* 3) Ikoner/hamburgermeny - högerställd */}
-      <div className="flex justify-end space-x-4">
-        <button aria-label="Search">🔍</button>
-        <button aria-label="Cart">🛒</button>
-        <button className="md:hidden" aria-label="Menu">☰</button>
+      {/* Höger: ikon/hamburger (mobil) */}
+      <div className="flex justify-end space-x-4 md:hidden">
+        <button aria-label="Open menu">☰</button>
       </div>
     </nav>
-  );
+  )
 }
