@@ -1,13 +1,18 @@
+// src/components/Hero.js
+
 export default function Hero() {
   return (
     <section className="flex flex-col lg:flex-row items-center bg-gray-100">
+      {/* Bildsektion */}
       <div className="w-full lg:w-1/2">
         <img
-          src="/images/hero.jpg"
+          src="/images/hero.png"
           alt="Hero"
           className="object-cover w-full h-full"
         />
       </div>
+
+      {/* Textsektion */}
       <div className="w-full lg:w-1/2 px-6 py-12 text-center lg:text-left">
         <h1 className="text-4xl font-serif text-gray-800 mb-4">
           Hey beautiful,
