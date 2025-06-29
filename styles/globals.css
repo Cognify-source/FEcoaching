@@ -2,13 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Applicera bakgrundsfärg globalt på body, section, nav, main och footer */
+/* Tvinga igenom bakgrundsfärgen på struktur-element */
 @layer base {
+  html,
   body,
-  section,
   nav,
   main,
+  section,
   footer {
-    background-color: #d6d0c0;
+    background-color: #d6d0c0 !important;
   }
 }
