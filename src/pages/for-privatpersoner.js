@@ -1,12 +1,9 @@
 // src/pages/for-privatpersoner.js
 
-import Layout from "../components/Layout";
-
 export default function ForPrivatpersoner() {
   return (
-    <Layout>
+    <>
       <section className="flex lg:flex-row flex-col items-center justify-center min-h-screen bg-gray-100">
-        {/* 1) Hero-bild – alltid 1/3 bredd, oförändrad */}
         <div className="hidden lg:block lg:w-1/3 h-full">
           <img
             src="/images/hero.png"
@@ -15,13 +12,11 @@ export default function ForPrivatpersoner() {
           />
         </div>
 
-        {/* 2) Innehåll – mittkolumn, 1/3 bredd, vertikalt centrerad */}
         <div className="w-full lg:w-1/3 px-6">
           <h1 className="text-4xl font-serif text-gray-800 mb-4 text-center lg:text-left">
             FÖR PRIVATPERSONER
           </h1>
           <div className="text-lg text-gray-600">
-            {/* Infälld bild: float-right, med marginal */}
             <img
               src="/images/privat_NY.png"
               alt="Privat Coaching"
@@ -48,11 +43,10 @@ export default function ForPrivatpersoner() {
               Välkommen att upptäcka hur IFS kan bli nyckeln till ett mer balanserat,
               meningsfullt och rikt liv.
             </p>
-            {/* Clear float efter text */}
             <div className="clear-right" />
           </div>
         </div>
       </section>
-    </Layout>
+    </>
   );
 }
