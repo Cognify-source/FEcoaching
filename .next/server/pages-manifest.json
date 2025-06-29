@@ -2,10 +2,10 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/for-privatpersoner": "pages/for-privatpersoner.js",
   "/": "pages/index.js",
+  "/for-privatpersoner": "pages/for-privatpersoner.js",
   "/for-foretag": "pages/for-foretag.js",
-  "/om-mig": "pages/om-mig.js",
   "/metod": "pages/metod.js",
-  "/kontakt": "pages/kontakt.js"
+  "/kontakt": "pages/kontakt.js",
+  "/om-mig": "pages/om-mig.js"
 }
