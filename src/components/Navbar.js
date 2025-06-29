@@ -1,4 +1,5 @@
 // src/components/Navbar.js
+
 import Link from 'next/link';
 
 export default function Navbar() {
@@ -48,4 +49,5 @@ export default function Navbar() {
         <button aria-label="Open menu">☰</button>
       </div>
     </nav>
+  );
 }
