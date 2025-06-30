@@ -1,6 +1,5 @@
 // src/components/Navbar.js
-
-import Link from 'next/link';
+import Link from 'next/link'
 
 export default function Navbar() {
   return (
@@ -38,6 +37,11 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
+          <Link href="/testimonials" legacyBehavior>
+            <a>TESTIMONIALS</a>
+          </Link>
+        </li>
+        <li>
           <Link href="/kontakt" legacyBehavior>
             <a>KONTAKT</a>
           </Link>
@@ -49,5 +53,5 @@ export default function Navbar() {
         <button aria-label="Open menu">☰</button>
       </div>
     </nav>
-  );
+)
 }
