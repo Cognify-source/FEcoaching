@@ -90,7 +90,6 @@ export default function Layout({ children }) {
     <>
       <Navbar />
 
-      {/* Huvudinnehåll: hero + dynamiskt nav-segment */}
       <div className="flex min-h-screen pt-16 pb-16">
         {/* Statisk hero-bild */}
         <div className="hidden lg:block lg:w-1/3 h-full">
@@ -108,19 +107,23 @@ export default function Layout({ children }) {
           </div>
         </main>
 
-        {/* Tom högra kolumn för centrering */}
+        {/* Tom högra kolumn */}
         <div className="hidden lg:block lg:w-1/3" />
       </div>
 
-      {/* Testimonials – full bredd, under hero-sektionen, text centrerad */}
-      <section className="w-full px-6 py-8 bg-transparent text-center text-black relative">
-        <button className="left-arrow absolute left-6 top-1/2 transform -translate-y-1/2 text-2xl">
-          ‹
-        </button>
-        <div className="testimonial-slide inline-block mx-12 relative h-32 overflow-hidden"></div>
-        <button className="right-arrow absolute right-6 top-1/2 transform -translate-y-1/2 text-2xl">
-          ›
-        </button>
+      {/* Testimonials – under herosektionen, full bredd */}
+      <section className="w-full bg-transparent py-8">
+        <div className="max-w-2xl mx-auto relative">
+          <button className="left-arrow absolute left-0 top-1/2 transform -translate-y-1/2 text-2xl text-black">
+            ‹
+          </button>
+          <div className="testimonial-slide mx-12 relative h-32 overflow-hidden text-black">
+            {/* Innehåll laddas in här */}
+          </div>
+          <button className="right-arrow absolute right-0 top-1/2 transform -translate-y-1/2 text-2xl text-black">
+            ›
+          </button>
+        </div>
       </section>
     </>
   )
