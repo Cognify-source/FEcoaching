@@ -111,8 +111,8 @@ export default function Layout({ children }) {
         <div className="hidden lg:block lg:w-1/3" />
       </div>
 
-      {/* Testimonials – full bredd, mindre vertikal luft, centrerad text */}
-      <section className="w-full bg-transparent py-4 text-center text-black">
+      {/* Testimonials – full bredd, reducerad luft ovan (py-1) */}
+      <section className="w-full bg-transparent py-1 text-center text-black">
         <div className="relative w-full px-6">
           <button className="left-arrow absolute left-0 top-1/2 transform -translate-y-1/2 text-2xl">
             ‹
