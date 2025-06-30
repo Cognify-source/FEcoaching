@@ -8,13 +8,10 @@ export default function Layout({ children }) {
     <>
       <Navbar />
 
-      {/* 
-        • Ökat top-padding med 25 % från pt-36 → pt-44 (11rem)
-        • Ökat negativ top-margin på vänsterkolumn med 25 % från -mt-12 → -mt-14 (3.5rem)
-      */}
-      <div className="flex min-h-screen pt-44 pb-4">
-        {/* 1) STATISK VÄNSTERKOLUMN – hero-bilden flyttas aldrig eller ändrar storlek */}
-        <div className="hidden lg:block lg:w-1/3 h-full -mt-14">
+      {/* Behåll pt-72 för mittkolumn, men flytta bara vänsterbilden upp med -mt-24 */}
+      <div className="flex pt-72 pb-4">
+        {/* 1) STATISK VÄNSTERKOLUMN – hero-bilden flyttas aldrig, men justeras upp 1/3 av pt-72 (6rem) */}
+        <div className="hidden lg:block lg:w-1/3 h-auto -mt-24">
           <img
             src="/images/hero.png"
             alt="Hero"
@@ -29,7 +26,7 @@ export default function Layout({ children }) {
           </div>
         </main>
 
-        {/* 3) TOM HÖGRKOLUMN för horisontell centrering */}
+        {/* 3) TOM HÖGERKOLUMN för horisontell centrering */}
         <div className="hidden lg:block lg:w-1/3" />
       </div>
 
