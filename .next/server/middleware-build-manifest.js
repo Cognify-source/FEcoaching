@@ -35,20 +35,10 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/for-privatpersoner.js"
     ],
-    "/kontakt": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/kontakt.js"
-    ],
     "/metod": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/metod.js"
-    ],
-    "/om-mig": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/om-mig.js"
     ],
     "/testimonials": [
       "static/chunks/webpack.js",
