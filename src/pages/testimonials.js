@@ -3,7 +3,7 @@
 export default function Testimonials() {
   return (
     <>
-      <h1 className="text-4xl font-serif text-gray-800 mb-4 text-center">
+      <h1 className="text-4xl font-serif font-extrabold text-gray-800 mb-4 text-center">
         TESTIMONIALS
       </h1>
       <div className="space-y-6 text-lg text-gray-600 text-center">

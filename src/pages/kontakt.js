@@ -3,7 +3,7 @@
 export default function Kontakt() {
   return (
     <>
-      <h1 className="text-4xl font-serif text-slate-800 mb-6 text-center">
+      <h1 className="text-4xl font-serif font-extrabold text-slate-800 mb-6 text-center">
         KONTAKT
       </h1>
 
