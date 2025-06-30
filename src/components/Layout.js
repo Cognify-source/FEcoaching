@@ -111,16 +111,16 @@ export default function Layout({ children }) {
         <div className="hidden lg:block lg:w-1/3" />
       </div>
 
-      {/* Testimonials – under herosektionen, full bredd */}
-      <section className="w-full bg-transparent py-8">
-        <div className="max-w-2xl mx-auto relative">
-          <button className="left-arrow absolute left-0 top-1/2 transform -translate-y-1/2 text-2xl text-black">
+      {/* Testimonials – full bredd, mindre vertikal luft, centrerad text */}
+      <section className="w-full bg-transparent py-4 text-center text-black">
+        <div className="relative w-full px-6">
+          <button className="left-arrow absolute left-0 top-1/2 transform -translate-y-1/2 text-2xl">
             ‹
           </button>
-          <div className="testimonial-slide mx-12 relative h-32 overflow-hidden text-black">
-            {/* Innehåll laddas in här */}
+          <div className="testimonial-slide relative h-32 overflow-hidden w-full">
+            {/* testimonials.html laddas in här */}
           </div>
-          <button className="right-arrow absolute right-0 top-1/2 transform -translate-y-1/2 text-2xl text-black">
+          <button className="right-arrow absolute right-0 top-1/2 transform -translate-y-1/2 text-2xl">
             ›
           </button>
         </div>

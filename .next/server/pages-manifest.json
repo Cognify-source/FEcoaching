@@ -2,9 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/for-foretag": "pages/for-foretag.js",
-  "/for-privatpersoner": "pages/for-privatpersoner.js",
-  "/metod": "pages/metod.js",
-  "/om-mig": "pages/om-mig.js"
+  "/": "pages/index.js"
 }
