@@ -18,9 +18,9 @@ export default function Layout({ children }) {
           />
         </div>
 
-        {/* 2) DYNAMISK MITTKOLUMN – 1/3 bredd, centrerad, där {children} byts ut */}
-        <main className="w-full lg:w-1/3 px-6 py-8 flex items-center justify-center">
-          <div className="w-full text-black">
+        {/* 2) DYNAMISK MITTKOLUMN – exakt 1/3 bredd, centrerad horisontellt och vertikalt */}
+        <main className="w-full lg:w-1/3 px-6 flex items-center justify-center">
+          <div className="w-full">
             {children}
           </div>
         </main>

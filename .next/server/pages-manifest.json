@@ -2,7 +2,11 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/metod": "pages/metod.js",
+  "/": "pages/index.js",
+  "/kontakt": "pages/kontakt.js",
   "/testimonials": "pages/testimonials.js",
-  "/kontakt": "pages/kontakt.js"
+  "/metod": "pages/metod.js",
+  "/for-privatpersoner": "pages/for-privatpersoner.js",
+  "/for-foretag": "pages/for-foretag.js",
+  "/om-mig": "pages/om-mig.js"
 }
