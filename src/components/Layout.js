@@ -8,7 +8,8 @@ export default function Layout({ children }) {
     <>
       <Navbar />
 
-      <div className="flex pt-16 pb-4">
+      {/* Öka vertical padding-top till 3× (pt-48 istället för pt-16) */}
+      <div className="flex pt-48 pb-4">
         {/* 1) STATISK VÄNSTERKOLUMN – hero-bilden flyttas aldrig */}
         <div className="hidden lg:block lg:w-1/3 h-auto">
           <img
@@ -18,8 +19,8 @@ export default function Layout({ children }) {
           />
         </div>
 
-        {/* 2) DYNAMISK MITTKOLUMN – exakt 1/3 bredd, centrerad horisontellt och vertikalt */}
-        <main className="w-full lg:w-1/3 px-6 flex items-center justify-center">
+        {/* 2) DYNAMISK MITTKOLUMN – 1/3 bredd, horisontellt centrerad, innehåll startar längre ner */}
+        <main className="w-full lg:w-1/3 px-6 flex items-start justify-center">
           <div className="w-full">
             {children}
           </div>

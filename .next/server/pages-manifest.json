@@ -3,10 +3,10 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/kontakt": "pages/kontakt.js",
-  "/testimonials": "pages/testimonials.js",
-  "/metod": "pages/metod.js",
-  "/for-privatpersoner": "pages/for-privatpersoner.js",
+  "/om-mig": "pages/om-mig.js",
   "/for-foretag": "pages/for-foretag.js",
-  "/om-mig": "pages/om-mig.js"
+  "/for-privatpersoner": "pages/for-privatpersoner.js",
+  "/metod": "pages/metod.js",
+  "/testimonials": "pages/testimonials.js",
+  "/kontakt": "pages/kontakt.js"
 }
