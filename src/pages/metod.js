@@ -3,7 +3,7 @@
 export default function Metod() {
   return (
     <>
-      <h1 className="text-4xl font-serif font-extrabold text-gray-800 mb-4 text-center">
+      <h1 className="text-4xl font-serif font-extrabold text-gray-800 mb-4 text-left">
         METOD
       </h1>
       <div className="text-lg text-gray-600 space-y-4">

@@ -3,7 +3,7 @@
 export default function ForPrivatpersoner() {
   return (
     <>
-      <h1 className="text-4xl font-serif font-extrabold text-gray-800 mb-4 text-center">
+      <h1 className="text-4xl font-serif font-extrabold text-gray-800 mb-4 text-left">
         FÖR PRIVATPERSONER
       </h1>
       <img
