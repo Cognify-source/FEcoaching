@@ -8,8 +8,8 @@ export default function Layout({ children }) {
     <>
       <Navbar />
 
-      {/* Öka vertical padding-top till 3× (pt-48 istället för pt-16) */}
-      <div className="flex pt-48 pb-4">
+      {/* Ökad vertical padding-top: 1.5× pt-48 → pt-72 */}
+      <div className="flex pt-72 pb-4">
         {/* 1) STATISK VÄNSTERKOLUMN – hero-bilden flyttas aldrig */}
         <div className="hidden lg:block lg:w-1/3 h-auto">
           <img
@@ -26,7 +26,7 @@ export default function Layout({ children }) {
           </div>
         </main>
 
-        {/* 3) TOM HÖGRKOLUMN för horisontell centrering */}
+        {/* 3) TOM HÖGERKOLUMN för horisontell centrering */}
         <div className="hidden lg:block lg:w-1/3" />
       </div>
 
