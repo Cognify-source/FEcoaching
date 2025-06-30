@@ -6,7 +6,7 @@ export default function Testimonials() {
       <h1 className="text-4xl font-serif text-gray-800 mb-4 text-center">
         TESTIMONIALS
       </h1>
-      <div className="text-lg text-gray-600 space-y-6">
+      <div className="mx-auto w-full lg:w-1/3 space-y-6 text-lg text-gray-600 text-center">
         <div>
           <p>
             “Jag är djupt tacksam för det stöd jag fått. Fredrik är en mjuk, inkännande och sympatisk coach som verkligen känner in vad som behövs i stunden. Han är inte rädd för att låta tystnaden tala, att ge utrymme där det behövs, och han guidar alltid sessionen i min takt.”
