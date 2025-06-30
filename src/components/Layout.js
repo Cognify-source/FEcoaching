@@ -9,12 +9,12 @@ export default function Layout({ children }) {
       <Navbar />
 
       {/* 
-        • Lägg tillbaka min-h-screen så container alltid är minst viewport-höjd.
-        • Använd h-full på vänsterkolumnen så bilden alltid fyller hela den höjden.
+        • Halverad top-padding: pt-36 (9rem) istället för pt-72 (18rem)
+        • Halverad negativ top-margin på vänsterkolumn: -mt-12 (3rem) istället för -mt-24
       */}
-      <div className="flex min-h-screen pt-72 pb-4">
+      <div className="flex min-h-screen pt-36 pb-4">
         {/* 1) STATISK VÄNSTERKOLUMN – hero-bilden flyttas aldrig eller ändrar storlek */}
-        <div className="hidden lg:block lg:w-1/3 h-full -mt-24">
+        <div className="hidden lg:block lg:w-1/3 h-full -mt-12">
           <img
             src="/images/hero.png"
             alt="Hero"
