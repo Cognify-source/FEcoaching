@@ -4,5 +4,8 @@
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
   "/testimonials": "pages/testimonials.js",
-  "/metod": "pages/metod.js"
+  "/metod": "pages/metod.js",
+  "/for-privatpersoner": "pages/for-privatpersoner.js",
+  "/for-foretag": "pages/for-foretag.js",
+  "/om-mig": "pages/om-mig.js"
 }

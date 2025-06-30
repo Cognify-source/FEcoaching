@@ -9,7 +9,7 @@ export default function Testimonials() {
       <div className="space-y-6 text-lg text-gray-600 text-center">
         <div>
           <p>
-            “Jag är djupt tacksam för det stöd jag fått. Fredrik är en mjuk, inkännande och sympatisk coach som verkligen känner in vad som behövs i stunden. Han är inte rädd för att låta tystnaden tala, att ge utrymme där det behövs, och han guidar alltid sessionen i min takt.”
+            “Jag är djupt tacksam för det stöd jag fått. Fredrik är en mjuk, inkännande och sympatisk coach som verkligen känner in vad som behövs i stunden. Han är inte rädd för att låta tystnaden tala, att ge utrymme där det behövs, och guidar alltid sessionen i min takt.”
           </p>
           <span className="block font-medium mt-2">– Jessica</span>
         </div>
@@ -27,7 +27,7 @@ export default function Testimonials() {
         </div>
         <div>
           <p>
-            “På ett nyfiket och utforskande sätt fick min femåriga version komma till tals och ge en större förståelse för mig själv och mina mönster. Och en möjlighet att skriva om historien med mer kärlek. Fredrik förmedlade ett öppet och nyfiket sinne utan tidspress som var värdefullt för att öppna upp delar i mig som ville bli mötta och läkta…”
+            “På ett nyfiket och utforskande sätt fick min femåriga version komma till tals och ge en större förståelse för mig själv och mina mönster. Och en möjlighet att skriva om historien med mer kärlek. Fredrik förmedlade ett öppet och nyfiket sinne utan tidspress som var värdefullt för att öppna upp delar i mig som ville bli mötta och läkta.”
           </p>
           <span className="block font-medium mt-2">– Luzita</span>
         </div>
