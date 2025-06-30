@@ -8,10 +8,13 @@ export default function Layout({ children }) {
     <>
       <Navbar />
 
-      {/* Behåll pt-72 för mittkolumn, men flytta bara vänsterbilden upp med -mt-24 */}
-      <div className="flex pt-72 pb-4">
-        {/* 1) STATISK VÄNSTERKOLUMN – hero-bilden flyttas aldrig, men justeras upp 1/3 av pt-72 (6rem) */}
-        <div className="hidden lg:block lg:w-1/3 h-auto -mt-24">
+      {/* 
+        • Lägg tillbaka min-h-screen så container alltid är minst viewport-höjd.
+        • Använd h-full på vänsterkolumnen så bilden alltid fyller hela den höjden.
+      */}
+      <div className="flex min-h-screen pt-72 pb-4">
+        {/* 1) STATISK VÄNSTERKOLUMN – hero-bilden flyttas aldrig eller ändrar storlek */}
+        <div className="hidden lg:block lg:w-1/3 h-full -mt-24">
           <img
             src="/images/hero.png"
             alt="Hero"
@@ -19,7 +22,7 @@ export default function Layout({ children }) {
           />
         </div>
 
-        {/* 2) DYNAMISK MITTKOLUMN – 1/3 bredd, horisontellt centrerad */}
+        {/* 2) DYNAMISK MITTKOLUMN – 1/3 bredd, horisontellt centrerad, innehåll startar längre ner */}
         <main className="w-full lg:w-1/3 px-6 flex items-start justify-center">
           <div className="w-full">
             {children}
