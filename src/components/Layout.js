@@ -91,9 +91,10 @@ export default function Layout({ children }) {
     <>
       <Navbar />
 
-      <div className="flex min-h-screen pt-16 pb-4">
+      {/* Ta bort min-h-screen så höjden följer innehållet */}
+      <div className="flex pt-16 pb-4">
         {/* Statisk hero-bild */}
-        <div className="hidden lg:block lg:w-1/3 h-full">
+        <div className="hidden lg:block lg:w-1/3 h-auto">
           <img
             src="/images/hero.png"
             alt="Hero"
@@ -113,7 +114,7 @@ export default function Layout({ children }) {
       </div>
 
       {/* Testimonials – full bredd, minimal luft ovan */}
-      <section className="w-full bg-transparent py-0 text-center text-black">
+      <section className="w-full bg-transparent py-1 text-center text-black">
         <div className="relative w-full px-6">
           <button className="left-arrow absolute left-0 top-1/2 transform -translate-y-1/2 text-2xl">
             ‹
