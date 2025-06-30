@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 export default function Layout({ children }) {
   useEffect(() => {
@@ -90,7 +91,6 @@ export default function Layout({ children }) {
     <>
       <Navbar />
 
-      {/* Huvudinnehåll med min-h-screen, reducerad bottom-padding */}
       <div className="flex min-h-screen pt-16 pb-4">
         {/* Statisk hero-bild */}
         <div className="hidden lg:block lg:w-1/3 h-full">
@@ -112,8 +112,8 @@ export default function Layout({ children }) {
         <div className="hidden lg:block lg:w-1/3" />
       </div>
 
-      {/* Testimonials – full bredd, mindre vertikal luft */}
-      <section className="w-full bg-transparent py-1 text-center text-black">
+      {/* Testimonials – full bredd, minimal luft ovan */}
+      <section className="w-full bg-transparent py-0 text-center text-black">
         <div className="relative w-full px-6">
           <button className="left-arrow absolute left-0 top-1/2 transform -translate-y-1/2 text-2xl">
             ‹
@@ -126,6 +126,8 @@ export default function Layout({ children }) {
           </button>
         </div>
       </section>
+
+      <Footer />
     </>
   )
 }
