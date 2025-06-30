@@ -3,7 +3,7 @@
 export default function OmMig() {
   return (
     <>
-      <h1 className="text-4xl font-serif text-gray-800 mb-4 text-center lg:text-left">
+      <h1 className="text-4xl font-serif font-extrabold text-gray-800 mb-4 text-center">
         OM MIG
       </h1>
       <div className="text-lg text-gray-600 space-y-4">

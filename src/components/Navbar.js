@@ -7,7 +7,7 @@ export default function Navbar() {
       {/* Vänster: logo */}
       <div className="justify-self-start">
         <Link href="/" legacyBehavior>
-          <a className="text-xl">
+          <a className="text-xl font-semibold">
             <span className="font-extrabold">FREDRIK EKHOLM</span>{' '}
             <span className="font-light">COACHING</span>
           </a>
@@ -16,36 +16,20 @@ export default function Navbar() {
 
       {/* Mitten: länkar */}
       <ul className="flex justify-center space-x-12">
-        <li>
-          <Link href="/om-mig" legacyBehavior>
-            <a>OM MIG</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/for-foretag" legacyBehavior>
-            <a>FÖR FÖRETAG</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/for-privatpersoner" legacyBehavior>
-            <a>FÖR PRIVATPERSONER</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/metod" legacyBehavior>
-            <a>METOD</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/testimonials" legacyBehavior>
-            <a>TESTIMONIALS</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/kontakt" legacyBehavior>
-            <a>KONTAKT</a>
-          </Link>
-        </li>
+        {[
+          { href: '/om-mig', label: 'Om mig' },
+          { href: '/for-foretag', label: 'För företag' },
+          { href: '/for-privatpersoner', label: 'För privatpersoner' },
+          { href: '/metod', label: 'Metod' },
+          { href: '/testimonials', label: 'Testimonials' },
+          { href: '/kontakt', label: 'Kontakt' },
+        ].map(({ href, label }) => (
+          <li key={href}>
+            <Link href={href} legacyBehavior>
+              <a className="capitalize font-semibold hover:text-gray-900">{label}</a>
+            </Link>
+          </li>
+        ))}
       </ul>
 
       {/* Höger (mobil): hamburgermeny */}
@@ -53,5 +37,5 @@ export default function Navbar() {
         <button aria-label="Open menu">☰</button>
       </div>
     </nav>
-)
+  )
 }

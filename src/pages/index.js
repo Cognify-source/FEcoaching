@@ -1,8 +1,11 @@
 // src/pages/index.js
+
 export default function Home() {
   return (
     <>
-      <h1 className="text-4xl font-serif text-gray-800 mb-4">Hey beautiful,</h1>
+      <h1 className="text-4xl font-serif font-extrabold text-gray-800 mb-4 text-center">
+        Hey beautiful,
+      </h1>
       <p className="text-lg text-gray-600 mb-6">
         Want to learn the best way to take your health, wealth and love to the next level?
       </p>
