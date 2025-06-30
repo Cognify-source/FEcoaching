@@ -1,44 +1,68 @@
 // src/components/Layout.js
 
-import Navbar from './Navbar';
-import Footer from './Footer';
+import { useEffect, useRef, useState } from 'react'
+import Navbar from './Navbar'
 
 export default function Layout({ children }) {
+  const heroRef = useRef(null)
+  const [heroHeight, setHeroHeight] = useState('auto')
+
+  useEffect(() => {
+    function updateHeight() {
+      if (heroRef.current) {
+        setHeroHeight(`${heroRef.current.clientHeight}px`)
+      }
+    }
+    // Sätt initialt
+    updateHeight()
+    // Uppdatera om fönstret ändrar storlek
+    window.addEventListener('resize', updateHeight)
+    return () => window.removeEventListener('resize', updateHeight)
+  }, [])
+
   return (
     <>
-      {/* Den fasta toppmenyn */}
       <Navbar />
 
-      {/* 
-        Innehållsområde med top- och bottom-padding för nav/footer.
-        Tre kolumner i en flex-container: 
-        1) Statiskt hero-bild (1/3 bredd, dold på små skärmar)
-        2) Dynamiskt innehåll (1/3 bredd, centrerat)
-        3) Tom kolumn (1/3 bredd) för horisontell centrering
-      */}
-      <div className="pt-16 pb-16">
-        <div className="flex min-h-screen">
-          {/* 1) Hero-bilden */}
-          <div className="hidden lg:block lg:w-1/3 h-full">
-            <img
-              src="/images/hero.png"
-              alt="Hero"
-              className="object-cover w-full h-full"
-            />
+      <div
+        className="flex pt-16 pb-16 bg-transparent items-stretch"
+        style={{ height: heroHeight }}
+      >
+        {/* Statisk vänsterkolumn med hero-bild */}
+        <div
+          ref={heroRef}
+          className="hidden lg:block lg:w-1/3 h-auto"
+        >
+          <img
+            src="/images/hero.png"
+            alt="Hero"
+            className="object-cover w-full h-full"
+          />
+        </div>
+
+        {/* Dynamisk mittkolumn */}
+        <main className="w-full lg:w-1/3 px-6 py-8 flex flex-col items-center justify-center">
+          <div className="w-full text-black">
+            {children}
           </div>
 
-          {/* 2) Dynamiskt innehåll */}
-          <main className="w-full lg:w-1/3 px-6 py-8 flex items-center justify-center">
-            <div className="w-full">{children}</div>
-          </main>
+          {/* Testimonials-sektionen */}
+          <section className="w-full mt-12 relative">
+            <button className="left-arrow absolute left-0 top-1/2 transform -translate-y-1/2 text-2xl text-black">
+              ‹
+            </button>
+            <div className="testimonial-slide relative h-32 overflow-hidden">
+              {/* laddas in via fetch */}
+            </div>
+            <button className="right-arrow absolute right-0 top-1/2 transform -translate-y-1/2 text-2xl text-black">
+              ›
+            </button>
+          </section>
+        </main>
 
-          {/* 3) Tom högra kolumn */}
-          <div className="hidden lg:block lg:w-1/3" />
-        </div>
+        {/* Tom högra kolumn för horisontell centrering */}
+        <div className="hidden lg:block lg:w-1/3" />
       </div>
-
-      {/* Den fasta footern */}
-      <Footer />
     </>
-  );
+  )
 }
