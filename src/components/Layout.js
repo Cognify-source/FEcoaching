@@ -9,12 +9,14 @@ export default function Layout({ children }) {
       <Navbar />
 
       {/* 
-        • flex-nowrap: se till att kolumnerna inte wrappar eller krymper
-        • min-h-screen: minst hela viewporthöjd
+        • flex-nowrap för att inga kolumner ska brytas
+        • min-h-screen för att fylla hela höjden
       */}
       <div className="flex flex-nowrap min-h-screen pt-44 pb-4">
-        {/* 1) STATISK VÄNSTERKOLUMN – fast 1/3-bredd på lg+, ingen shrink */}
-        <div className="hidden lg:block lg:flex-none lg:w-1/3 h-full -mt-14 no-reflow">
+        {/* 
+          1) STATISK VÄNSTERKOLUMN – alltid exakt 1/3, ingen flex-växling eller krympning 
+        */}
+        <div className="hidden lg:flex basis-1/3 flex-grow-0 flex-shrink-0 h-full -mt-14 no-reflow">
           <img
             src="/images/hero.png"
             alt="Hero"
@@ -22,15 +24,20 @@ export default function Layout({ children }) {
           />
         </div>
 
-        {/* 2) DYNAMISK MITTKOLUMN – fast 1/3-bredd på lg+, ingen shrink */}
-        <main className="flex-none w-full lg:flex-none lg:w-1/3 px-6 flex items-start justify-center no-reflow">
+        {/*
+          2) DYNAMISK MITTKOLUMN – alltid exakt 1/3, ingen flex-växling eller krympning
+             Innehållet centreras horisontellt, startar direkt under navbar
+        */}
+        <main className="flex basis-1/3 flex-grow-0 flex-shrink-0 px-6 items-start justify-center no-reflow">
           <div className="w-full text-black">
             {children}
           </div>
         </main>
 
-        {/* 3) TOM HÖGERKOLUMN – fast 1/3-bredd på lg+, ingen shrink */}
-        <div className="hidden lg:block lg:flex-none lg:w-1/3" />
+        {/*
+          3) TOM HÖGRKOLUMN – alltid exakt 1/3, håller mittkolumnen centrerad
+        */}
+        <div className="hidden lg:flex basis-1/3 flex-grow-0 flex-shrink-0" />
       </div>
 
       <Footer />
