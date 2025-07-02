@@ -12,8 +12,7 @@ export default function Home() {
         Utforska dina inre delar<br />
         – hitta tillbaka till ditt autentiska jag.
       </h1>
-      {/* Två radbrytningar efter rubriken */}
-      <br />
+      {/* En radbrytning efter rubriken */}
       <br />
 
       <p className="text-lg text-gray-600 mb-6">
