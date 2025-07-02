@@ -9,12 +9,14 @@ export default function Layout({ children }) {
       <Navbar />
 
       {/* 
-        • flex-nowrap + overflow-x-auto: hindrar att kolumnerna krymper – istället blir det horisontell scroll när fönstret blir för smalt
-        • min-h-screen: för att fylla hela höjden
+        • flex-nowrap + overflow-x-auto: förhindrar att kolumnerna krymper, ger horisontell scroll vid för smalt fönster
+        • min-h-screen: fyller alltid hela viewport-höjden
       */}
       <div className="flex flex-nowrap overflow-x-auto min-h-screen pt-44 pb-4">
-        {/* 1) STATISK VÄNSTERKOLUMN – exakt 1/3, flex-none hindrar shrink/grow */}
-        <div className="hidden lg:block flex-none w-1/3 h-full -mt-14 no-reflow">
+        {/* 
+          1) STATISK VÄNSTERKOLUMN – fast 800px bredd, förhindrar krympning 
+        */}
+        <div className="hidden lg:block flex-none w-[800px] h-full -mt-14 no-reflow">
           <img
             src="/images/hero.png"
             alt="Hero"
@@ -22,20 +24,22 @@ export default function Layout({ children }) {
           />
         </div>
 
-        {/* 2) DYNAMISK MITTKOLUMN – exakt 1/3, flex-none hindrar shrink/grow */}
-        <main className="flex-none w-full lg:w-1/3 px-6 items-start justify-center no-reflow">
+        {/* 
+          2) DYNAMISK MITTKOLUMN – fast 800px bredd, förhindrar krympning 
+        */}
+        <main className="flex-none w-[800px] px-6 items-start justify-center no-reflow">
           <div className="w-full text-black">
             {children}
           </div>
         </main>
 
-        {/* 3) TOM HÖGRKOLUMN – exakt 1/3, flex-none hindrar shrink/grow */}
-        <div className="hidden lg:block flex-none w-1/3" />
+        {/* 
+          3) TOM HÖGRKOLUMN – tar upp återstående utrymme 
+        */}
+        <div className="hidden lg:flex flex-grow flex-none" />
       </div>
 
       <Footer />
     </>
   )
 }
-
-
