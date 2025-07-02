@@ -9,15 +9,12 @@ export default function Layout({ children }) {
       <Navbar />
 
       {/* 
-        • flex-nowrap + overflow-x-auto: kolumnerna får inte krympa, utan scroll vid för smalt fönster
-        • min-h-screen: fyller alltid hela höjden
+        • flex-nowrap + overflow-x-auto: hindrar att kolumnerna krymper – istället blir det horisontell scroll när fönstret blir för smalt
+        • min-h-screen: för att fylla hela höjden
       */}
       <div className="flex flex-nowrap overflow-x-auto min-h-screen pt-44 pb-4">
-        {/* 
-          1) STATISK VÄNSTERKOLUMN – fast pixelbredd, flex-none hindrar krympning 
-             (byt ut 360px mot önskad bredd)
-        */}
-        <div className="hidden lg:block flex-none w-[360px] h-full -mt-14 no-reflow">
+        {/* 1) STATISK VÄNSTERKOLUMN – exakt 1/3, flex-none hindrar shrink/grow */}
+        <div className="hidden lg:block flex-none w-1/3 h-full -mt-14 no-reflow">
           <img
             src="/images/hero.png"
             alt="Hero"
@@ -25,25 +22,20 @@ export default function Layout({ children }) {
           />
         </div>
 
-        {/* 
-          2) DYNAMISK MITTKOLUMN – fast pixelbredd, flex-none hindrar krympning 
-             (byt ut 360px mot samma bredd som vänsterkolumnen)
-        */}
-        <main className="flex-none w-[360px] px-6 items-start justify-center no-reflow">
+        {/* 2) DYNAMISK MITTKOLUMN – exakt 1/3, flex-none hindrar shrink/grow */}
+        <main className="flex-none w-full lg:w-1/3 px-6 items-start justify-center no-reflow">
           <div className="w-full text-black">
             {children}
           </div>
         </main>
 
-        {/* 
-          3) TOM HÖGRKOLUMN – flex-grow för att ta upp kvarvarande utrymme,
-          och flex-none så den inte krymper under sina minsta bredd
-        */}
-        <div className="hidden lg:flex flex-grow flex-none" />
+        {/* 3) TOM HÖGRKOLUMN – exakt 1/3, flex-none hindrar shrink/grow */}
+        <div className="hidden lg:block flex-none w-1/3" />
       </div>
 
       <Footer />
     </>
   )
 }
+
 
