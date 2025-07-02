@@ -23,12 +23,12 @@ export default function Navbar() {
         </Link>
       </div>
 
-      {/* Mitten: länkar i ny ordning, versaler, samma storlek som loggan */}
+      {/* Mitten: länkar med tunna versaler i text-xl */}
       <ul className="flex justify-center space-x-12">
         {links.map(({ href, label }) => (
           <li key={href}>
             <Link href={href} legacyBehavior>
-              <a className="text-xl uppercase font-medium hover:text-gray-900">
+              <a className="text-xl uppercase font-light hover:text-gray-900">
                 {label}
               </a>
             </Link>
