@@ -14,10 +14,10 @@ export default function Hero() {
       {/* 2/3 bredd: statisk text */}
       <div className="w-full lg:w-2/3 px-6 py-12 text-center lg:text-left">
         <h1 className="text-4xl font-serif text-gray-800 mb-4">
-          Hey beautiful,
+          Utforska dina inre delar – hitta tillbaka till ditt autentiska jag.
         </h1>
         <p className="text-lg text-gray-600 mb-6">
-          Want to learn the best way to take your health, wealth and love to the next level?
+          Känner du att olika sidor av dig drar åt olika håll? I min coaching får du möta och integrera dina inre delar så att de kan sam­arbeta i stället för att konkurrera. Metoden bygger på Internal Family Systems (IFS) men är öppen för andra evidens­baserade verktyg som stödjer just din resa.
         </p>
         <button className="px-6 py-3 border border-gray-400 text-gray-700 font-medium hover:bg-gray-200 transition">
           TAKE THE QUIZ
