@@ -25,15 +25,13 @@ export default function Metod() {
           – kärnan i din personlighet – kliva fram och leda helheten.
         </p>
         <p>
-          Coaching hos mig handlar om att skapa just den psykologiska trygghet
-          klienter som Jessica, <em>T</em> och Klient&nbsp;C beskriver i sina
-          utlåtanden: jag möter dig med lyhördhet, ger plats för tystnad och gör
+          Jag möter dig med lyhördhet, ger plats för tystnad och gör
           processen konkret så att lärandet känns handfast. Tillsammans kartlägger
           vi dina delar, lyssnar på deras positiva intentioner och hjälper dem
           samarbeta snarare än konkurrera.
         </p>
         <p>
-          Min egen spinn på IFS är en pragmatisk kombination av somatisk närvaro,
+          Jag kombinerar IFS med en pragmatisk kombination av somatisk närvaro,
           lösningsorienterade frågor och visuella tekniker. Jag växlar mellan
           djup inre dialog och tydliga handlings­steg som stärker det du vill se
           mer av i vardagen – vare sig det gäller stress­reglering, relationer
