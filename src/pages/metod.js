@@ -21,7 +21,7 @@ export default function Metod() {
           forskningsstödd modell som ser varje människa som ett dynamiskt "inre
           team" av delar. Varje del bär på specifika känslor, behov och
           strategier, precis som rösterna runt ett mötesbord. När dessa delar
-          får utrymme att bli hörda kan ett lugnt och klokt <strong>Själv</strong>
+          får utrymme att bli hörda kan ett lugnt och klokt <em>Själv</em>
           – kärnan i din personlighet – kliva fram och leda helheten.
         </p>
         <p>
@@ -38,10 +38,9 @@ export default function Metod() {
           eller ledarskap. 
         </p>
         <p>
-          Metoden är flexibel: vi kan arbeta individuellt, med par eller hela
-          team. Gemensamt är att processen alltid utgår från din takt, dina mål
-          och en genuin tro på att varje del av dig har något värdefullt att
-          bidra med. Resultatet blir större klarhet, mer fokus och en stabilare
+          Processen utgår alltid från din takt, dina mål och en genuin tro
+          på att varje del av dig har något värdefullt att bidra med. 
+          Resultatet blir större klarhet, mer fokus och en stabilare
           inre kompass – det som klienter brukar beskriva som "samlad energi".
         </p>
       </div>
