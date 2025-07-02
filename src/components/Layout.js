@@ -14,9 +14,9 @@ export default function Layout({ children }) {
       */}
       <div className="flex flex-nowrap overflow-x-auto min-h-screen pt-44 pb-4">
         {/* 
-          1) STATISK VÄNSTERKOLUMN – fast 800px bredd, förhindrar krympning 
+          1) STATISK VÄNSTERKOLUMN – fast 820px bredd, förhindrar krympning 
         */}
-        <div className="hidden lg:block flex-none w-[800px] h-full -mt-14 no-reflow">
+        <div className="hidden lg:block flex-none w-[820px] h-full -mt-14 no-reflow">
           <img
             src="/images/hero.png"
             alt="Hero"

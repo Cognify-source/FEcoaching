@@ -29,6 +29,16 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/for-foretag.js"
+    ],
+    "/kontakt": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/kontakt.js"
+    ],
+    "/metod": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/metod.js"
     ]
   },
   "ampFirstPages": []
