@@ -6,8 +6,8 @@ export default function Navbar() {
   const links = [
     { href: '/om-mig', label: 'OM MIG' },
     { href: '/metod', label: 'METOD' },
-    { href: '/for-privatpersoner', label: 'FÖR PRIVATPERSONER' },
-    { href: '/for-foretag', label: 'FÖR FÖRETAG' },
+    { href: '/for-privatpersoner', label: 'PRIVATPERSONER' },
+    { href: '/for-foretag', label: 'FÖRETAG' },
     { href: '/kontakt', label: 'KONTAKT' },
   ]
 
@@ -23,12 +23,12 @@ export default function Navbar() {
         </Link>
       </div>
 
-      {/* Mitten: länkar med tunna versaler i text-xl */}
+      {/* Mitten: länkar med uppdaterade labels */}
       <ul className="flex justify-center space-x-12">
         {links.map(({ href, label }) => (
           <li key={href}>
             <Link href={href} legacyBehavior>
-              <a className="text-xl uppercase font-light hover:text-gray-900">
+              <a className="text-lg uppercase font-light hover:text-gray-900">
                 {label}
               </a>
             </Link>
