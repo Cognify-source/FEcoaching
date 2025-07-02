@@ -4,22 +4,50 @@ export default function Metod() {
   return (
     <>
       <h1 className="text-4xl font-serif font-extrabold text-gray-800 mb-4 text-left">
-        METOD
+        MIN METOD
       </h1>
-      <div className="text-lg text-gray-600 space-y-4">
+      <div className="text-lg text-gray-600 space-y-4 relative">
+        {/* Bilden flyter till höger och tar upp cirka 1/3 av bredden */}
+        <div className="float-right w-full sm:w-1/3 ml-4 mb-4">
+          <img
+            src="/images/IFS-illu_NY.png"
+            alt="Illustration av IFS‑processen"
+            className="w-full h-auto rounded-lg"
+          />
+        </div>
+
         <p>
-          <strong>Internal Family Systems (IFS)</strong> ser sinnet som ett inre team av delar, var och en med egna känslor, behov och strategier. Genom att möta både starka och sårbara delar med medkänsla och nyfikenhet frigör vi energier som annars skapar inre konflikt och stress. Resultatet blir ökad självkännedom, djupare välmående och en stabil inre grund.
+          Grunden i min coaching är <em>Internal Family Systems</em> (IFS) – en
+          forskningsstödd modell som ser varje människa som ett dynamiskt "inre
+          team" av delar. Varje del bär på specifika känslor, behov och
+          strategier, precis som rösterna runt ett mötesbord. När dessa delar
+          får utrymme att bli hörda kan ett lugnt och klokt <strong>Själv</strong>
+          – kärnan i din personlighet – kliva fram och leda helheten.
         </p>
         <p>
-          I coachingsessionerna jobbar jag med IFS som utgångspunkt. Vi arbetar med guidade reflektioner, visualiseringar och konkreta övningar för att kartlägga dina delar, identifiera hinder och integrera resurser. Fokus ligger alltid på eget självledarskap och långvarig balans.
+          Coaching hos mig handlar om att skapa just den psykologiska trygghet
+          klienter som Jessica, <em>T</em> och Klient&nbsp;C beskriver i sina
+          utlåtanden: jag möter dig med lyhördhet, ger plats för tystnad och gör
+          processen konkret så att lärandet känns handfast. Tillsammans kartlägger
+          vi dina delar, lyssnar på deras positiva intentioner och hjälper dem
+          samarbeta snarare än konkurrera.
         </p>
         <p>
-          För dig som individ innebär metoden bättre stresshantering, ökad emotionell intelligens och en tryggare relation till dig själv. När inre harmoni råder växer också kreativitet och handlingskraft. När du förstår hur ditt "inre team" fungerar så ger det också ökad förståelse för hur man bättre kan samarbeta i företagsmiljö.
+          Min egen spinn på IFS är en pragmatisk kombination av somatisk närvaro,
+          lösningsorienterade frågor och visuella tekniker. Jag växlar mellan
+          djup inre dialog och tydliga handlings­steg som stärker det du vill se
+          mer av i vardagen – vare sig det gäller stress­reglering, relationer
+          eller ledarskap. Målet är att du ska lämna varje session med både ökad
+          själv­kännedom och praktiska verktyg att använda direkt.
         </p>
         <p>
-          För företag, ledare och team kan IFS-driven coaching förbättra samarbetet, stärka kommunikationen och skapa en kultur där balans och prestation går hand i hand.
+          Metoden är flexibel: vi kan arbeta individuellt, med par eller hela
+          team. Gemensamt är att processen alltid utgår från din takt, dina mål
+          och en genuin tro på att varje del av dig har något värdefullt att
+          bidra med. Resultatet blir större klarhet, mer fokus och en stabilare
+          inre kompass – det som klienter brukar beskriva som "samlad energi".
         </p>
       </div>
     </>
-  )
+  );
 }
