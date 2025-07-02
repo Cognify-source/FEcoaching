@@ -12,7 +12,7 @@ export default function ForForetag() {
           <img
             src="/images/foretag_NY.png"
             alt="Illustration av företagscoaching"
-            className="w-full h-auto rounded-lg shadow-md"
+            className="w-full h-auto rounded-lg"
           />
         </div>
 
