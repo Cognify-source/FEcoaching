@@ -8,16 +8,33 @@ export default function OmMig() {
       </h1>
       <div className="text-lg text-gray-600 space-y-4">
         <p>
-          <strong>Mitt namn är Fredrik Ekholm</strong> och jag coachar både företag, ledare och privatpersoner i beslutsprocesser och personlig utveckling. Min resa började tidigt med en stark nyfikenhet på hur vi människor fungerar – jag har prövat ett flertal metoder innan jag fann <em>Internal Family Systems (IFS)</em>, som är en djupgående och transformativ modell.
+          <strong>Mitt namn är Fredrik Ekholm</strong> och jag har i över två
+          decennier fördjupat mig i personlig utveckling och människans inre
+          drivkrafter. Under resan har jag utforskat många metoder – från
+          klassisk coachning till somatiska tekniker – och landat i ett
+          arbetssätt där <em>Internal Family Systems (IFS)</em> är en central,
+          men inte enda, komponent i verktygslådan.
         </p>
         <p>
-          Genom att möta dina inre delar med nyfikenhet och självkärlek hjälper jag dig att frigöra hinder, stärka dina resurser och skapa hållbara strategier för både inre harmoni och yttre framgång. Min erfarenhet av olika verktyg och perspektiv gör att jag kan designa flexibla och skräddarsydda sessioner, oavsett om du vill växa som individ eller leda ett team.
+          Min coaching beskrivs ofta som lyhörd, mjuk och samtidigt handfast.
+          Jag ger plats åt tystnaden när den behövs, följer ditt tempo och
+          hjälper dig sätta ord på det som känns diffust. Klienter uppskattar
+          min förmåga att både hålla ett varmt, tryggt rum och samtidigt rikta
+          fokus mot konkreta steg som löser faktiska problem.
         </p>
         <p>
-          I våra sessioner använder jag IFS som utgångspunkt. Vi arbetar med guidade reflektioner, konkreta övningar och visuella tekniker för att identifiera och integrera dina delar. Resultatet blir ökad självmedvetenhet, bättre stresshantering och en tryggare relation till dig själv.
+          I sessionerna kombinerar jag guidade inre möten med dina
+          "delpersonligheter", praktiska övningar och visuella tekniker.
+          Oavsett om du vill stärka ditt ledarskap, hantera stress eller hitta
+          riktning i livet designar jag varje samtal efter dina behov.
+          Resultatet brukar bli ökad självmedvetenhet, tydligare beslut och en
+          mer samlad inre kompass.
         </p>
         <p>
-          Välkommen att ta nästa steg i din personliga och professionella utveckling – tillsammans skapar vi förutsättningar för långsiktig balans, klarhet och ansvarstagande ledarskap.
+          Välkommen att boka ett första samtal. Tillsammans skapar vi de
+          förutsättningar du behöver för långsiktig balans, klarhet och
+          ansvarstagande – både i ditt eget liv och i de sammanhang där du leder
+          andra.
         </p>
       </div>
     </>
