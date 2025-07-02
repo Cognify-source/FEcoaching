@@ -35,8 +35,7 @@ export default function Metod() {
           lösningsorienterade frågor och visuella tekniker. Jag växlar mellan
           djup inre dialog och tydliga handlings­steg som stärker det du vill se
           mer av i vardagen – vare sig det gäller stress­reglering, relationer
-          eller ledarskap. Målet är att du ska lämna varje session med både ökad
-          själv­kännedom och praktiska verktyg att använda direkt.
+          eller ledarskap. 
         </p>
         <p>
           Metoden är flexibel: vi kan arbeta individuellt, med par eller hela
