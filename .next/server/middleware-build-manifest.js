@@ -35,10 +35,10 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/for-privatpersoner.js"
     ],
-    "/metod": [
+    "/kontakt": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/metod.js"
+      "static/chunks/pages/kontakt.js"
     ]
   },
   "ampFirstPages": []
