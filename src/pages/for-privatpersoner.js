@@ -6,25 +6,38 @@ export default function ForPrivatpersoner() {
       <h1 className="text-4xl font-serif font-extrabold text-gray-800 mb-4 text-left">
         FÖR PRIVATPERSONER
       </h1>
-      <img
-        src="/images/privat_NY.png"
-        alt="Privat Coaching"
-        className="float-right ml-4 mb-4 w-64 lg:w-96 max-w-full"
-      />
-      <div className="text-lg text-gray-600 space-y-4">
+      <div className="text-lg text-gray-600 space-y-4 relative">
+        {/* Bilden flyter till höger och tar upp cirka 1/3 av bredden */}
+        <div className="float-right w-full sm:w-1/3 ml-4 mb-4">
+          <img
+            src="/images/privat_NY.npg"
+            alt="Illustration av coaching för privatpersoner"
+            className="w-full h-auto rounded-lg"
+          />
+        </div>
+
         <p>
-          Internal Family Systems (IFS) ser din inre värld som ett team av delar med unika röster, behov och känslor. Genom att lära känna och möta dessa delar med vänlighet bryter vi gamla mönster och frigör energi som ofta fastnar i stress och självkritik.
+          Känner du att olika delar av dig drar åt olika håll? Kanske vill en del
+          gasa framåt medan en annan trycker på bromsen. Min coaching hjälper
+          dig att skapa inre samklang och självmedkänsla, så att du kan fatta
+          tydligare beslut och leva mer i linje med vad som verkligen betyder
+          något för dig.
         </p>
         <p>
-          I personliga coachingsessioner skräddarsyr jag övningar och samtal efter din situation, utan att strikt följa modellen. Tillsammans utforskar vi skyddande delar, healar sårbara delar och integrerar nya resurser för djup inre harmoni.
+          Utgångspunkten är <em>Internal Family Systems</em> – en modell som gör
+          dina "delpersonligheter" till samarbetspartners i stället för
+          motståndare. Tillsammans utforskar vi deras behov och intentioner
+          genom guidade reflektioner och praktiska övningar. Resultatet blir en
+          lugnare inre dialog, minskad stress och ett ökat självförtroende.
         </p>
         <p>
-          För dig innebär det ökad självmedvetenhet, bättre stresshantering och en trygg relation till dig själv. Med en stabil inre grund växer ditt välmående, livsglädje och förmåga att möta vardagens utmaningar.
-        </p>
-        <p>
-          Välkommen att upptäcka hur IFS kan bli nyckeln till ett mer balanserat, meningsfullt och rikt liv.
+          Varje program skräddarsys efter var du befinner dig i livet. Oavsett
+          om du vill hantera oro, bryta gamla mönster eller hitta ny riktning
+          kombinerar jag evidensbaserade tekniker med empati och tydligt fokus
+          på dina mål. Boka ett kostnadsfritt introduktionssamtal och ta första
+          steget mot ett liv med större klarhet, balans och glädje.
         </p>
       </div>
     </>
-  )
+  );
 }
