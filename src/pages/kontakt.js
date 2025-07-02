@@ -18,7 +18,7 @@ export default function Kontakt() {
             id="name"
             name="name"
             placeholder="Ditt namn"
-            className="w-full border border-slate-400 rounded px-4 py-2 bg-[#d6d0c0]
+            className="w-full border border-slate-400 rounded px-4 py-2 bg-[#d6d0c0] text-slate-900
                        focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-transparent"
           />
         </div>
@@ -33,7 +33,7 @@ export default function Kontakt() {
             id="email"
             name="email"
             placeholder="din@epost.se"
-            className="w-full border border-slate-400 rounded px-4 py-2 bg-[#d6d0c0]
+            className="w-full border border-slate-400 rounded px-4 py-2 bg-[#d6d0c0] text-slate-900
                        focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-transparent"
           />
         </div>
@@ -48,7 +48,7 @@ export default function Kontakt() {
             name="message"
             rows="5"
             placeholder="Skriv ditt meddelande här"
-            className="w-full border border-slate-400 rounded px-4 py-2 bg-[#d6d0c0]
+            className="w-full border border-slate-400 rounded px-4 py-2 bg-[#d6d0c0] text-slate-900
                        focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-transparent"
           />
         </div>
