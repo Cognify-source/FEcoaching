@@ -35,7 +35,7 @@ export default function ForForetag() {
           Varje uppdrag skräddarsys: från enskilda sessioner till workshops
           där hela teamet tränar reflektion, feedback och ansvarstagande. Ni
           investerar i människors förmåga att leda sig själva – och i företagets
-          långsiktiga hållbarhet och lönsamhet. Boka ett introduktionssamtal så
+          långsiktiga hållbarhet och lönsamhet. Boka ett kostnadsfritt introduktionssamtal så
           utforskar vi hur min coaching kan lyfta just er organisation.
         </p>
       </div>
