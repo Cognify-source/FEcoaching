@@ -5,5 +5,7 @@
   "/": "pages/index.js",
   "/metod": "pages/metod.js",
   "/for-privatpersoner": "pages/for-privatpersoner.js",
-  "/for-foretag": "pages/for-foretag.js"
+  "/for-foretag": "pages/for-foretag.js",
+  "/kontakt": "pages/kontakt.js",
+  "/om-mig": "pages/om-mig.js"
 }
