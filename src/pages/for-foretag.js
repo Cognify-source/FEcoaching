@@ -32,7 +32,7 @@ export default function ForForetag() {
           ni märker när konflikter lugnar sig och samarbetet flyter.
         </p>
         <p>
-          Varje uppdrag skräddarsys: från enskilda ledarsessioner till workshops
+          Varje uppdrag skräddarsys: från enskilda sessioner till workshops
           där hela teamet tränar reflektion, feedback och ansvarstagande. Ni
           investerar i människors förmåga att leda sig själva – och i företagets
           långsiktiga hållbarhet och lönsamhet. Boka ett introduktionssamtal så
