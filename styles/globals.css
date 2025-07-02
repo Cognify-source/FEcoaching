@@ -5,18 +5,17 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Globalt Poppins + bakgrundsfärg */
 @layer base {
-  /* Använd Poppins globalt */
   *, *::before, *::after {
     font-family: 'Poppins', sans-serif !important;
   }
-  /* Behåll bakgrundsfärgen */
-  html,
-  body,
-  nav,
-  section,
-  main,
-  footer {
+  html, body, nav, section, main, footer {
     background-color: #d6d0c0 !important;
   }
+}
+
+/* Contain only layout so att navbar, vänster- och mitten­kolumnen isoleras */
+.no-reflow {
+  contain: layout;
 }

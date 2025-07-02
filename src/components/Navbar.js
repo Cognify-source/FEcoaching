@@ -1,5 +1,4 @@
 // src/components/Navbar.js
-
 import Link from 'next/link'
 
 export default function Navbar() {
@@ -13,7 +12,7 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className="fixed top-0 left-0 w-full grid grid-cols-3 items-center bg-transparent px-6 py-4 z-50">
+    <nav className="fixed top-0 left-0 w-full grid grid-cols-3 items-center bg-transparent px-6 py-4 z-50 no-reflow">
       {/* Vänster: logo */}
       <div className="justify-self-start">
         <Link href="/" legacyBehavior>
@@ -24,7 +23,7 @@ export default function Navbar() {
         </Link>
       </div>
 
-      {/* Mitten: länkar, inklusive ny "HEM" längst till höger */}
+      {/* Mitten: länkar */}
       <ul className="flex justify-center space-x-12">
         {links.map(({ href, label }) => (
           <li key={href}>
