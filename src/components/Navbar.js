@@ -1,4 +1,5 @@
 // src/components/Navbar.js
+
 import Link from 'next/link'
 
 export default function Navbar() {
@@ -12,9 +13,9 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className="fixed top-0 left-0 w-full grid grid-cols-3 items-center bg-transparent px-6 py-4 z-50 no-reflow">
-      {/* Vänster: logo */}
-      <div className="justify-self-start">
+    <nav className="fixed top-0 left-0 w-full overflow-x-auto flex flex-nowrap bg-transparent px-6 py-4 z-50 no-reflow">
+      {/* 1) LOGO – fast 800px bredd */}
+      <div className="flex-none w-[800px] flex items-center">
         <Link href="/" legacyBehavior>
           <a className="text-xl font-semibold uppercase">
             <span className="font-extrabold">FREDRIK EKHOLM</span>{' '}
@@ -23,8 +24,8 @@ export default function Navbar() {
         </Link>
       </div>
 
-      {/* Mitten: länkar */}
-      <ul className="flex justify-center space-x-12">
+      {/* 2) LÄNKAR – fast 800px bredd */}
+      <ul className="flex-none w-[800px] flex justify-center space-x-12 items-center">
         {links.map(({ href, label }) => (
           <li key={href}>
             <Link href={href} legacyBehavior>
@@ -36,8 +37,8 @@ export default function Navbar() {
         ))}
       </ul>
 
-      {/* Höger (mobil): hamburgermeny */}
-      <div className="flex justify-end space-x-4 md:hidden">
+      {/* 3) MOBILMENY – tar upp återstående utrymme */}
+      <div className="flex-grow flex justify-end items-center md:hidden">
         <button aria-label="Open menu">☰</button>
       </div>
     </nav>
