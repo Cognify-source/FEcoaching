@@ -6,6 +6,9 @@ export default function Home() {
   return (
     <>
       <h1 className="text-4xl font-serif font-semibold text-gray-800 mb-4 text-left">
+        <br />
+        <br />
+        <br />
         Utforska dina inre delar<br />
         – hitta tillbaka till ditt autentiska jag.
       </h1>
