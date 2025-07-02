@@ -10,7 +10,7 @@ export default function ForPrivatpersoner() {
         {/* Bilden flyter till höger och tar upp cirka 1/3 av bredden */}
         <div className="float-right w-full sm:w-1/3 ml-4 mb-4">
           <img
-            src="/images/privat_NY.npg"
+            src="/images/privat_NY.png"
             alt="Illustration av coaching för privatpersoner"
             className="w-full h-auto rounded-lg"
           />
