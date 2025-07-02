@@ -9,6 +9,7 @@ export default function Navbar() {
     { href: '/for-privatpersoner', label: 'PRIVATPERSONER' },
     { href: '/for-foretag', label: 'FÖRETAG' },
     { href: '/kontakt', label: 'KONTAKT' },
+    { href: '/', label: 'HEM' },
   ]
 
   return (
@@ -23,7 +24,7 @@ export default function Navbar() {
         </Link>
       </div>
 
-      {/* Mitten: länkar med uppdaterade labels */}
+      {/* Mitten: länkar, inklusive ny "HEM" längst till höger */}
       <ul className="flex justify-center space-x-12">
         {links.map(({ href, label }) => (
           <li key={href}>
