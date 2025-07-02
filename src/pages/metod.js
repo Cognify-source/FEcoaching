@@ -21,14 +21,14 @@ export default function Metod() {
           forskningsstödd modell som ser varje människa som ett dynamiskt "inre
           team" av delar. Varje del bär på specifika känslor, behov och
           strategier, precis som rösterna runt ett mötesbord. När dessa delar
-          får utrymme att bli hörda kan ett lugnt och klokt <em>Själv</em>
+          får utrymme att bli hörda kan ett lugnt och klokt <em>Själv </em>
           – kärnan i din personlighet – kliva fram och leda helheten.
         </p>
         <p>
           Jag möter dig med lyhördhet, ger plats för tystnad och gör
           processen konkret så att lärandet känns handfast. Tillsammans kartlägger
           vi dina delar, lyssnar på deras positiva intentioner och hjälper dem
-          samarbeta snarare än konkurrera.
+          att samarbeta snarare än konkurrera.
         </p>
         <p>
           Jag kombinerar IFS med en pragmatisk kombination av somatisk närvaro,
