@@ -10,7 +10,7 @@ export default function Home() {
         <br />
         <br />
         Utforska dina inre delar<br />
-        – hitta tillbaka till ditt autentiska jag.
+        – hitta tillbaka till ditt autentiska jag
       </h1>
       {/* En radbrytning efter rubriken */}
       <br />
@@ -41,8 +41,7 @@ export default function Home() {
         praktiska verktyg som bäst stödjer just din – eller er – resa mot klarhet, fokus och harmoni.
       </p>
 
-      {/* Två radbrytningar före knappen */}
-      <br />
+      {/* En radbrytning före knappen */}
       <br />
 
       <Link href="/kontakt" legacyBehavior>

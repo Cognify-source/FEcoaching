@@ -19,7 +19,7 @@ export default function Testimonials() {
         </div>
         <div>
           <p>
-            “Fredriks sessioner är väldigt hjälpsamma då han konkret försöker hitta lösningar på mina problem. Fredrik är bemötande och duktig på att lyssna.<br />Han förstår också verkligen min situation och vad jag går igenom.”
+            “Fredriks sessioner är väldigt hjälpsamma då han konkret försöker hitta<br/>lösningar på mina problem. Fredrik är bemötande och duktig på att lyssna.<br />Han förstår också verkligen min situation och vad jag går igenom.”
           </p>
           <span className="block font-medium mt-2"><em>T</em></span>
         </div>
