@@ -23,7 +23,7 @@ export default function ForForetag() {
         <p>
           När era medarbetare drar åt olika håll blir organisationen splittrad –
           beslut tar längre tid och energi går förlorad. Med min coaching guidar jag
-          chefer och team till inre samstämmighet, mindre konflikter och ökad harmoni.
+          chefer och team till inre samstämmighet, färre konflikter och ökad harmoni.
         </p>
 
         <p>

@@ -1,8 +1,10 @@
 // src/pages/for-privatpersoner.js
 
+import Link from 'next/link'
+
 export const metadata = {
   title: "För privatpersoner – Fredrik Ekholm"
-};
+}
 
 export default function ForPrivatpersoner() {
   return (
@@ -28,14 +30,29 @@ export default function ForPrivatpersoner() {
         </p>
 
         <p>
-          Utgångspunkten är principer från <em>Internal Family Systems</em> (IFS) – en modell som gör
-          dina "delpersonligheter" till samarbetspartners i stället för
-          motståndare. Jag använder också principer från&nbsp;
-          <em>Nonviolent Communication (NVC)</em> för att fördjupa din förmåga
-          att lyssna empatiskt, formulera dina behov utan dömande och möta andra
-          med samma respekt. Tillsammans utforskar vi delarnas behov och
-          intentioner genom guidade reflektioner och praktiska övningar.
-          Resultatet blir en lugnare inre dialog, minskat negativt self talk och ett ökat självförtroende.
+          Utgångspunkten är principer från{" "}
+          <a
+            href="https://ifs-institute.com/"
+            className="underline hover:text-gray-800"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <em>Internal Family Systems (IFS)</em>
+          </a>{" "}
+          – en modell som gör dina "delpersonligheter" till samarbetspartners i stället för
+          motståndare. Jag använder också principer från{" "}
+          <a
+            href="https://www.cnvc.org/"
+            className="underline hover:text-gray-800"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <em>Nonviolent Communication (NVC)</em>
+          </a>{" "}
+          för att fördjupa din förmåga att lyssna empatiskt, formulera dina behov utan dömande och
+          möta andra med samma respekt. Tillsammans utforskar vi delarnas behov och
+          intentioner genom guidade reflektioner och praktiska övningar. Resultatet blir en
+          lugnare inre dialog, minskat negativt self talk och ett ökat självförtroende.
         </p>
 
         <p>
@@ -47,5 +64,5 @@ export default function ForPrivatpersoner() {
         </p>
       </div>
     </>
-  );
+  )
 }
