@@ -30,9 +30,9 @@ export default function Metod() {
         </p>
 
         <p>
-          Jag möter dig med lyhördhet och empati, inspirerad av principerna i&nbsp;
-          <em>Nonviolent Communication (NVC)</em>. Genom att ge språk åt känslor
-          och behov utan dömande skapar vi ett klimat där alla dina delar vågar
+          Lyhördhet och empati, inspirerade av IFS i kombination med principerna i&nbsp;
+          <em>Nonviolent Communication (NVC)</em> utgör kärnan i min coaching. Genom att ge språk åt känslor
+          och behov utan dömande skapas ett inre klimat där alla dina delar vågar
           tala klarspråk. Tillsammans kartlägger vi dem, lyssnar på deras
           positiva intentioner och hjälper dem att samarbeta snarare än
           konkurrera.
@@ -47,10 +47,9 @@ export default function Metod() {
         </p>
 
         <p>
-          Processen utgår alltid från din takt, dina mål och en genuin tro på att
+          Jag utgår alltid från din takt, dina mål och en genuin tro på att
           varje del av dig har något värdefullt att bidra med. Resultatet blir
-          större klarhet, mer fokus och en stabilare inre kompass – det som
-          klienter brukar beskriva som "samlad energi".
+          större klarhet, mer fokus och en stabilare inre vägledning och harmoni.
         </p>
       </div>
     </>
