@@ -31,7 +31,7 @@ export default function Testimonials() {
         </div>
         <div>
           <p>
-            “På ett nyfiket, utforskande sätt fick min femåriga version komma till tals och ge en större förståelse för mig själv och mina mönster. Och en möjlighet att skriva om historien med mer kärlek. Fredrik förmedlade ett öppet och nyfiket sinne utan tidspress som var värdefullt för att öppna upp delar i mig som ville bli mötta och läkta.”
+            “På ett nyfiket och utforskande sätt fick min femåriga version komma till tals och ge en större förståelse för mig själv och mina mönster. Och en möjlighet att skriva om historien med mer kärlek. Fredrik förmedlade ett öppet och nyfiket sinne utan tidspress som var värdefullt för att öppna upp delar som ville bli mötta och läkta.”
           </p>
           <span className="block font-medium mt-2">– Luzita</span>
         </div>

@@ -6,8 +6,8 @@ export default function Navbar() {
   const links = [
     { href: '/om-mig', label: 'OM MIG' },
     { href: '/metod', label: 'METOD' },
-    { href: '/for-privatpersoner', label: 'PRIVATPERSONER' },
-    { href: '/for-foretag', label: 'FÖRETAG' },      // ändrad label
+    { href: '/for-privatpersoner', label: 'PRIVAT' },  // uppdaterad label
+    { href: '/for-foretag', label: 'FÖRETAG' },
     { href: '/testimonials', label: 'TESTIMONIALS' },
     { href: '/kontakt', label: 'KONTAKT' },
     { href: '/', label: 'HEM' },
