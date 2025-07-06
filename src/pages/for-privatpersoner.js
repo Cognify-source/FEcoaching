@@ -23,24 +23,23 @@ export default function ForPrivatpersoner() {
         <p>
           Känner du dig fast i gamla hjulspår? Tar din inre kritiker eller gamla mönster över
           och hindrar dig från att leva det liv du vill? Min coaching kan hjälpa dig att skapa
-          inre samklang och självmedkänsla, så att du kan fatta tydligare beslut, få ett rikare
-          inre liv och leva mer i linje med vad som verkligen betyder något för dig.
+          mer inre harmoni och självmedkänsla, så att du kan fatta tydligare beslut, få ett rikare
+          inre liv och manifestera ditt bästa jag.
         </p>
 
         <p>
-          Utgångspunkten är <em>Internal Family Systems</em> – en modell som gör
+          Utgångspunkten är principer från <em>Internal Family Systems</em> – en modell som gör
           dina "delpersonligheter" till samarbetspartners i stället för
-          motståndare. Vi integrerar också nycklarna från&nbsp;
+          motståndare. Vi integrerar också principer från&nbsp;
           <em>Nonviolent Communication (NVC)</em> för att fördjupa din förmåga
           att lyssna empatiskt, formulera dina behov utan dömande och möta andra
           med samma respekt. Tillsammans utforskar vi delarnas behov och
           intentioner genom guidade reflektioner och praktiska övningar.
-          Resultatet blir en lugnare inre dialog, minskad stress och ett ökat
-          självförtroende.
+          Resultatet blir en lugnare inre dialog, minskat negativt self talk och ett ökat självförtroende.
         </p>
 
         <p>
-          Varje program skräddarsys efter var du befinner dig i livet. Oavsett
+          Varje program anpassas efter var du befinner dig i livet. Oavsett
           om du vill hantera oro, bryta gamla mönster eller hitta ny riktning
           kombinerar jag evidensbaserade tekniker med empati och tydligt fokus
           på dina mål. Boka ett kostnadsfritt introduktionssamtal och ta första
