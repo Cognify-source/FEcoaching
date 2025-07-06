@@ -39,7 +39,7 @@ export default function OmMig() {
           är centrala komponenter i verktygslådan.
         </p>
         <p>
-          Min coaching har av mina klienter beskrivits som lyhörd, mjuk och samtidigt handfast.
+          Min coaching har av klienter beskrivits som lyhörd, mjuk och samtidigt handfast.
           Jag ger plats åt tystnaden när den behövs, följer ditt tempo och
           hjälper dig sätta ord på det som känns diffust och oklart. Klienter uppskattar
           min förmåga att både hålla ett varmt, tryggt rum och samtidigt rikta
