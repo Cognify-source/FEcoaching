@@ -19,9 +19,25 @@ export default function Home() {
         Känner du att olika sidor av dig drar åt olika håll – i dig själv, i ditt
         ledarskap eller i ditt team? Jag hjälper både privatpersoner och
         företag att möta och integrera sina inre delar så att de kan samarbeta i
-        stället för att konkurrera. Min coaching använder <i>Internal Family Systems (IFS) </i>
-        som grund och förstärker detta med kärnprinciperna från&nbsp; <i>Nonviolent Communication (NVC)</i>, 
-        vilket ger en tydlig och empatisk dialog både inom dig och mellan människor. Tillsammans väljer vi de
+        stället för att konkurrera. Min coaching använder{" "}
+        <a
+          href="https://ifs-institute.com/"
+          className="underline hover:text-gray-800"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <em>Internal Family Systems (IFS)</em>
+        </a>{" "}
+        som grund och förstärker detta med kärnprinciperna från{" "}
+        <a
+          href="https://www.cnvc.org/"
+          className="underline hover:text-gray-800"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <em>Nonviolent Communication (NVC)</em>
+        </a>
+        , vilket ger en tydlig och empatisk dialog både inom dig och mellan människor. Tillsammans väljer vi de
         praktiska verktyg som bäst stödjer just din – eller er – resa mot klarhet, fokus och harmoni.
       </p>
 
