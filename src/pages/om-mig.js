@@ -1,8 +1,10 @@
 // src/pages/om-mig.js
 
+import Link from 'next/link'
+
 export const metadata = {
   title: "Om mig – Fredrik Ekholm"
-};
+}
 
 export default function OmMig() {
   return (
@@ -12,12 +14,29 @@ export default function OmMig() {
       </h1>
       <div className="text-lg text-gray-600 space-y-4">
         <p>
-          <strong>Mitt namn är Fredrik Ekholm</strong> och jag har i över trettio år
+          <strong>Mitt namn är Fredrik Ekholm</strong> och jag har i över tjugo år
           intresserat och fördjupat mig i personlig utveckling och människans inre
           drivkrafter. Jag har under resan utforskat många metoder – från
-          klassisk coachning, via meditation och yoga till somatiska tekniker – och landat i ett
-          arbetssätt där bland andra <em>Internal Family Systems (IFS)</em> och <em>Non Violent Communication (NVC)</em> är centrala
-          komponenter i verktygslådan.
+          klassisk coachning, via meditation och yoga till somatiska tekniker – och
+          landat i ett arbetssätt där bland andra{" "}
+          <a
+            href="https://ifs-institute.com/"
+            className="underline hover:text-gray-800"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <em>Internal Family Systems (IFS)</em>
+          </a>{" "}
+          och{" "}
+          <a
+            href="https://www.cnvc.org/"
+            className="underline hover:text-gray-800"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <em>Nonviolent Communication (NVC)</em>
+          </a>{" "}
+          är centrala komponenter i verktygslådan.
         </p>
         <p>
           Min coaching har av mina klienter beskrivits som lyhörd, mjuk och samtidigt handfast.
