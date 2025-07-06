@@ -1,8 +1,10 @@
 // src/pages/metod.js
 
+import Link from 'next/link'
+
 export const metadata = {
   title: "Min metod – Fredrik Ekholm"
-};
+}
 
 export default function Metod() {
   return (
@@ -22,7 +24,24 @@ export default function Metod() {
 
         <p>
           Lyhördhet och empati, i kombination med principerna i&nbsp;
-          <em>Nonviolent Communication (NVC)</em> och <em>Internal Family Systems</em> (IFS) utgör kärnan i min coaching. Genom att ge språk åt känslor
+          <a
+            href="https://www.cnvc.org/"
+            className="underline hover:text-gray-800"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <em>Nonviolent Communication (NVC)</em>
+          </a>{" "}
+          och{" "}
+          <a
+            href="https://ifs-institute.com/"
+            className="underline hover:text-gray-800"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <em>Internal Family Systems</em>
+          </a>{" "}
+          (IFS) utgör kärnan i min coaching. Genom att ge språk åt känslor
           och behov utan dömande skapas ett inre klimat där alla dina delar vågar
           tala klarspråk. Tillsammans kartlägger vi dem, lyssnar på deras
           positiva intentioner och hjälper dem att samarbeta snarare än
@@ -30,19 +49,38 @@ export default function Metod() {
         </p>
 
         <p>
-          Jag kombinerar IFS med NVC:s tydliga kommunikationsverktyg, somatisk
-          närvaro, lösningsorienterade frågor och visuella tekniker. Jag växlar
-          mellan djup inre dialog och konkreta handlings­steg som stärker det du
-          vill se mer av i vardagen – vare sig det gäller stress­reglering,
-          relationer eller ledarskap.
+          Jag kombinerar{" "}
+          <a
+            href="https://ifs-institute.com/"
+            className="underline hover:text-gray-800"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            IFS
+          </a>{" "}
+          med{" "}
+          <a
+            href="https://www.cnvc.org/"
+            className="underline hover:text-gray-800"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            NVC:s
+          </a>{" "}
+          tydliga kommunikationsverktyg, somatisk närvaro, lösningsorienterade
+          frågor och visuella tekniker. Jag växlar mellan djup inre dialog och
+          konkreta handlings­steg som stärker det du vill se mer av i
+          vardagen – vare sig det gäller stress­reglering, relationer eller
+          ledarskap.
         </p>
 
         <p>
           Jag utgår alltid från din takt, dina mål och en genuin tro på att
           varje del av dig har något värdefullt att bidra med. Resultatet blir
-          större klarhet, mer fokus och en stabilare inre vägledning och harmoni.
+          större klarhet, mer fokus och en stabilare inre vägledning och
+          harmoni.
         </p>
       </div>
     </>
-  );
+  )
 }
