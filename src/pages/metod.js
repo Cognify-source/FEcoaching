@@ -71,7 +71,7 @@ export default function Metod() {
           frågor och visuella tekniker. Jag växlar mellan djup inre dialog och
           konkreta handlings­steg som stärker det du vill se mer av i
           vardagen – vare sig det gäller inre harmoni, relationer eller
-          ledarskap.
+          yttre ledarskap.
         </p>
 
         <p>
