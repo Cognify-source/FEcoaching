@@ -19,7 +19,7 @@ export default function Home() {
         Känner du att olika sidor av dig drar åt olika håll – i dig själv, i ditt
         ledarskap eller i ditt team? Min coaching hjälper både privatpersoner och
         företag att möta och integrera sina inre delar så att de kan samarbeta i
-        stället för att konkurrera. Arbetet vilar på <i>Internal Family Systems (IFS)</i>
+        stället för att konkurrera. Arbetet vilar på <i>Internal Family Systems (IFS) </i>
         och fördjupas med kärnprinciperna från&nbsp;
         <i>Nonviolent Communication (NVC)</i>, vilket ger en tydlig men empatisk
         dialog både inom dig och mellan människor. Tillsammans väljer vi de
