@@ -12,8 +12,8 @@ export default function OmMig() {
           decennier fördjupat mig i personlig utveckling och människans inre
           drivkrafter. Under resan har jag utforskat många metoder – från
           klassisk coachning till somatiska tekniker – och landat i ett
-          arbetssätt där <em>Internal Family Systems (IFS)</em> och <em>Non Violent Communication (NVC)</em> är centrala,
-          men inte enda, komponent i verktygslådan.
+          arbetssätt där bland andra <em>Internal Family Systems (IFS)</em> och <em>Non Violent Communication (NVC)</em> är centrala
+          komponenter i verktygslådan.
         </p>
         <p>
           Min coaching beskrivs ofta som lyhörd, mjuk och samtidigt handfast.
