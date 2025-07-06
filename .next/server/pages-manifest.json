@@ -1,10 +1,10 @@
 {
-  "/_error": "pages/_error.js",
   "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
   "/for-foretag": "pages/for-foretag.html",
-  "/for-privatpersoner": "pages/for-privatpersoner.html",
-  "/": "pages/index.html",
   "/kontakt": "pages/kontakt.html",
+  "/": "pages/index.html",
+  "/for-privatpersoner": "pages/for-privatpersoner.html",
   "/metod": "pages/metod.html",
   "/om-mig": "pages/om-mig.html",
   "/testimonials": "pages/testimonials.html",

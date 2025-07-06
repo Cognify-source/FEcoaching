@@ -2,16 +2,26 @@
   "name": "my-nextjs-site",
   "version": "0.1.0",
   "private": true,
+
   "scripts": {
     "dev": "next dev",
+
+    // 1) Kompilerar projektet
     "build": "next build",
-    "start": "next start"
+
+    // 2) Exporterar statiska filer (kör automatiskt build först)
+    "export": "next build && next export",
+
+    // 3) All-in-one: export + zip
+    "buildzip": "npm run export && zip -r site-build.zip out"
   },
+
   "dependencies": {
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
   },
+
   "devDependencies": {
     "tailwindcss": "^3.4.7",
     "postcss": "^8.4.21",
