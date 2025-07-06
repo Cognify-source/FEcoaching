@@ -11,14 +11,9 @@ export default function Kontakt() {
         KONTAKT
       </h1>
 
-      {/* 
-        Lägg in action="mailto:…" så att submit öppnar användarens mailklient.
-        method="POST" + encType text/plain ger grundläggande mejl-kropp.
-      */}
       <form
-        action="mailto:info@fredrikekholm.se"
+        action="https://formspree.io/f/mldnkpwe"
         method="POST"
-        encType="text/plain"
         className="space-y-6 max-w-lg mx-auto"
       >
         {/* Namn */}
@@ -29,7 +24,7 @@ export default function Kontakt() {
           <input
             type="text"
             id="name"
-            name="Namn"
+            name="name"
             required
             placeholder="Ditt namn"
             className="w-full border border-slate-400 rounded px-4 py-2 bg-[#d6d0c0] text-slate-900
@@ -45,7 +40,7 @@ export default function Kontakt() {
           <input
             type="email"
             id="email"
-            name="E-post"
+            name="email"
             required
             placeholder="din@epost.se"
             className="w-full border border-slate-400 rounded px-4 py-2 bg-[#d6d0c0] text-slate-900
@@ -60,7 +55,7 @@ export default function Kontakt() {
           </label>
           <textarea
             id="message"
-            name="Meddelande"
+            name="message"
             required
             rows="5"
             placeholder="Skriv ditt meddelande här"
@@ -69,7 +64,7 @@ export default function Kontakt() {
           />
         </div>
 
-        {/* Skicka‐knapp */}
+        {/* Skicka-knapp */}
         <button
           type="submit"
           className="w-full bg-slate-800 text-white px-6 py-3 rounded 
