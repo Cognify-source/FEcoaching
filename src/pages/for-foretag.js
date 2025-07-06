@@ -1,5 +1,8 @@
-
 // src/pages/for-foretag.js
+
+export const metadata = {
+  title: "För företag – Fredrik Ekholm"
+};
 
 export default function ForForetag() {
   return (

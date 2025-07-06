@@ -1,5 +1,9 @@
 // src/pages/for-privatpersoner.js
 
+export const metadata = {
+  title: "För privatpersoner – Fredrik Ekholm"
+};
+
 export default function ForPrivatpersoner() {
   return (
     <>

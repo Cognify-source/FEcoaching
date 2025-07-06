@@ -7,7 +7,8 @@ export default function Navbar() {
     { href: '/om-mig', label: 'OM MIG' },
     { href: '/metod', label: 'METOD' },
     { href: '/for-privatpersoner', label: 'PRIVATPERSONER' },
-    { href: '/for-foretag', label: 'FÖRETAG' },
+    { href: '/for-foretag', label: 'FÖRETAG' },      // ändrad label
+    { href: '/testimonials', label: 'TESTIMONIALS' },
     { href: '/kontakt', label: 'KONTAKT' },
     { href: '/', label: 'HEM' },
   ]

@@ -1,5 +1,9 @@
 // src/pages/metod.js
 
+export const metadata = {
+  title: "Min metod – Fredrik Ekholm"
+};
+
 export default function Metod() {
   return (
     <>

@@ -1,5 +1,9 @@
 // src/pages/om-mig.js
 
+export const metadata = {
+  title: "Om mig – Fredrik Ekholm"
+};
+
 export default function OmMig() {
   return (
     <>

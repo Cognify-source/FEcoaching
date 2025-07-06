@@ -1,5 +1,9 @@
 // src/pages/kontakt.js
 
+export const metadata = {
+  title: "Kontakt – Fredrik Ekholm"
+};
+
 export default function Kontakt() {
   return (
     <>
