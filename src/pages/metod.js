@@ -30,8 +30,8 @@ export default function Metod() {
         </p>
 
         <p>
-          Lyhördhet och empati, inspirerade av IFS i kombination med principerna i&nbsp;
-          <em>Nonviolent Communication (NVC)</em> utgör kärnan i min coaching. Genom att ge språk åt känslor
+          Lyhördhet och empati, i kombination med principerna i&nbsp;
+          <em>Nonviolent Communication (NVC)</em> och IFS utgör kärnan i min coaching. Genom att ge språk åt känslor
           och behov utan dömande skapas ett inre klimat där alla dina delar vågar
           tala klarspråk. Tillsammans kartlägger vi dem, lyssnar på deras
           positiva intentioner och hjälper dem att samarbeta snarare än
