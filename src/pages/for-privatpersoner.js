@@ -21,11 +21,10 @@ export default function ForPrivatpersoner() {
         </div>
 
         <p>
-          Känner du att olika delar av dig drar åt olika håll? Kanske vill en del
-          gasa framåt medan en annan trycker på bromsen. Min coaching hjälper
-          dig att skapa inre samklang och självmedkänsla, så att du kan fatta
-          tydligare beslut och leva mer i linje med vad som verkligen betyder
-          något för dig.
+          Känner du att olika delar av dig drar åt olika håll? Känner du dig fast i gamla hjulspår?
+          Tar din inre kritiker eller gamla mönster över och hindrar dig för att leva det liv du vill?
+          Min coaching hjälper dig att skapa inre samklang och självmedkänsla, så att du kan fatta
+          tydligare beslut och leva mer i linje med vad som verkligen betyder något för dig.
         </p>
 
         <p>
