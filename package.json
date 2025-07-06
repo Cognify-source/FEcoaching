@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next build && next export",
-    "buildzip": "npm run export && zip -r site-build.zip out"
+    "buildzip": "next build && zip -r site-build.zip out"
   },
   "dependencies": {
     "next": "latest",
