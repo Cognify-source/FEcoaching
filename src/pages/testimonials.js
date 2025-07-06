@@ -13,13 +13,13 @@ export default function Testimonials() {
       <div className="space-y-6 text-lg text-gray-600 text-center">
         <div>
           <p>
-            “Jag är djupt tacksam för det stöd jag fått. Fredrik är en mjuk, inkännande och sympatisk coach som verkligen känner in vad som behövs i stunden. Han är inte rädd för att låta tystnaden tala, att ge utrymme där det behövs, och guidar alltid sessionen i min takt.”
+            “Jag är djupt tacksam för det stöd jag fått. Fredrik är en mjuk, inkännande och sympatisk coach som verkligen känner in vad som behövs i stunden. Han är inte rädd för att låta tystnaden tala, att ge utrymme där det behövs,<br /> och guidar alltid sessionen i min takt.”
           </p>
           <span className="block font-medium mt-2"><em>Jessica</em></span>
         </div>
         <div>
           <p>
-            “Fredriks sessioner är väldigt hjälpsamma då han konkret försöker hitta lösningar på mina problem. Fredrik är bemötande och duktig på att lyssna. Han förstår också verkligen min situation och vad jag går igenom.”
+            “Fredriks sessioner är väldigt hjälpsamma då han konkret försöker hitta lösningar på mina problem. Fredrik är bemötande och duktig på att lyssna.<br />Han förstår också verkligen min situation och vad jag går igenom.”
           </p>
           <span className="block font-medium mt-2"><em>T</em></span>
         </div>
