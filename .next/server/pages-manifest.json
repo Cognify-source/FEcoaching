@@ -1,10 +1,13 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/": "pages/index.html",
+  "/for-foretag": "pages/for-foretag.html",
+  "/for-privatpersoner": "pages/for-privatpersoner.html",
+  "/metod": "pages/metod.html",
+  "/kontakt": "pages/kontakt.html",
+  "/testimonials": "pages/testimonials.html",
+  "/om-mig": "pages/om-mig.html",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/testimonials": "pages/testimonials.js",
-  "/kontakt": "pages/kontakt.js",
-  "/for-privatpersoner": "pages/for-privatpersoner.js",
-  "/for-foretag": "pages/for-foretag.js"
+  "/404": "pages/404.html"
 }
