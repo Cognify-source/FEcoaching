@@ -21,17 +21,8 @@ export default function Metod() {
         </div>
 
         <p>
-          Grunden i min coaching är <em>Internal Family Systems</em> (IFS) – en
-          forskningsstödd modell som ser varje människa som ett dynamiskt "inre
-          team" av delar. Varje del bär på specifika känslor, behov och
-          strategier, precis som rösterna runt ett mötesbord. När dessa delar
-          får utrymme att bli hörda kan ett lugnt och klokt <em>Själv</em> –
-          kärnan i din personlighet – kliva fram och leda helheten.
-        </p>
-
-        <p>
           Lyhördhet och empati, i kombination med principerna i&nbsp;
-          <em>Nonviolent Communication (NVC)</em> och IFS utgör kärnan i min coaching. Genom att ge språk åt känslor
+          <em>Nonviolent Communication (NVC)</em> och <em>Internal Family Systems</em> (IFS) utgör kärnan i min coaching. Genom att ge språk åt känslor
           och behov utan dömande skapas ett inre klimat där alla dina delar vågar
           tala klarspråk. Tillsammans kartlägger vi dem, lyssnar på deras
           positiva intentioner och hjälper dem att samarbeta snarare än
