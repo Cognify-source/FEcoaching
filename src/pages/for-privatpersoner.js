@@ -23,13 +23,19 @@ export default function ForPrivatpersoner() {
           tydligare beslut och leva mer i linje med vad som verkligen betyder
           något för dig.
         </p>
+
         <p>
           Utgångspunkten är <em>Internal Family Systems</em> – en modell som gör
           dina "delpersonligheter" till samarbetspartners i stället för
-          motståndare. Tillsammans utforskar vi deras behov och intentioner
-          genom guidade reflektioner och praktiska övningar. Resultatet blir en
-          lugnare inre dialog, minskad stress och ett ökat självförtroende.
+          motståndare. Vi integrerar också nycklarna från&nbsp;
+          <em>Nonviolent Communication (NVC)</em> för att fördjupa din förmåga
+          att lyssna empatiskt, formulera dina behov utan dömande och möta andra
+          med samma respekt. Tillsammans utforskar vi delarnas behov och
+          intentioner genom guidade reflektioner och praktiska övningar.
+          Resultatet blir en lugnare inre dialog, minskad stress och ett ökat
+          självförtroende.
         </p>
+
         <p>
           Varje program skräddarsys efter var du befinner dig i livet. Oavsett
           om du vill hantera oro, bryta gamla mönster eller hitta ny riktning
