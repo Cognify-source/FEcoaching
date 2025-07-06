@@ -3,5 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/om-mig": "pages/om-mig.js"
+  "/om-mig": "pages/om-mig.js",
+  "/metod": "pages/metod.js"
 }

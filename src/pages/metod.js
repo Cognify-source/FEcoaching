@@ -49,7 +49,7 @@ export default function Metod() {
         </p>
 
         <p>
-          Jag kombinerar{" "}
+          Jag kombinerar principer från {" "}
           <a
             href="https://ifs-institute.com/"
             className="underline hover:text-gray-800"
