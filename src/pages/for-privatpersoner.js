@@ -30,7 +30,7 @@ export default function ForPrivatpersoner() {
         <p>
           Utgångspunkten är principer från <em>Internal Family Systems</em> (IFS) – en modell som gör
           dina "delpersonligheter" till samarbetspartners i stället för
-          motståndare. Vi integrerar också principer från&nbsp;
+          motståndare. Jag använder också principer från&nbsp;
           <em>Nonviolent Communication (NVC)</em> för att fördjupa din förmåga
           att lyssna empatiskt, formulera dina behov utan dömande och möta andra
           med samma respekt. Tillsammans utforskar vi delarnas behov och
@@ -39,7 +39,7 @@ export default function ForPrivatpersoner() {
         </p>
 
         <p>
-          Jag anpassar mig coaching efter var du befinner dig i livet. Oavsett
+          Jag anpassar min coaching efter var du befinner dig i livet. Oavsett
           om du vill hantera oro, bryta gamla mönster eller hitta ny riktning
           kombinerar jag evidensbaserade tekniker med empati och tydligt fokus
           på dina mål. Boka ett kostnadsfritt introduktionssamtal och ta första
