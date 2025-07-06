@@ -22,14 +22,12 @@ export default function ForForetag() {
 
         <p>
           När era medarbetare drar åt olika håll blir organisationen splittrad –
-          beslut tar längre tid och energi går förlorad. Min coaching vänder
-          trenden. Med <em>Internal Family Systems</em> som grund och verktyg i
-          målsättning, <em>Nonviolent Communication (NVC)</em> och stressreglering
-          guidar jag chefer och team till inre samstämmighet.
+          beslut tar längre tid och energi går förlorad. Med min coaching guidar jag
+          chefer och team till inre samstämmighet, mindre konflikter och ökad harmoni.
         </p>
 
         <p>
-          Genom strukturerade NVC-samtal synliggör vi motstridiga drivkrafter och
+          Genom strukturerade samtal synliggör vi motstridiga drivkrafter och
           gör dem till en resurs i stället för ett hinder. Resultatet blir ledare
           som fattar tydliga beslut och medarbetare som känner sig hörda,
           delaktiga och mindre stressade. Forskning visar att psykologisk
