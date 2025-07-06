@@ -16,10 +16,10 @@ export default function Home() {
       <br />
 
       <p className="text-lg text-gray-600 mb-6">
-        Känner du att olika sidor av dig drar åt olika håll – i dig själv, i ditt
+        Känner du att olika sidor av dig drar åt olika håll och skapar konflikt och splittring – i dig själv, i ditt
         ledarskap eller i ditt team? Jag hjälper både privatpersoner och
         företag att möta och integrera sina inre delar så att de kan samarbeta i
-        stället för att konkurrera. Min coaching använder{" "}
+        stället för att konkurrera. Min coaching använder principer från {" "}
         <a
           href="https://ifs-institute.com/"
           className="underline hover:text-gray-800"
