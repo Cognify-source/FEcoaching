@@ -1,43 +1,24 @@
 // src/pages/kontakt.js
 
-import { useState } from 'react'
-
 export const metadata = {
   title: "Kontakt – Fredrik Ekholm"
 }
 
 export default function Kontakt() {
-  const [submitting, setSubmitting] = useState(false)
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    setSubmitting(true)
-
-    const form = new FormData(e.target)
-    const name = encodeURIComponent(form.get('name'))
-    const email = encodeURIComponent(form.get('email'))
-    const message = encodeURIComponent(form.get('message'))
-
-    // Skapa en mailto-länk så att användarens e-postklient öppnas
-    const mailto = `mailto:info@fredrikekholm.se` +
-      `?subject=Kontakt från ${name}` +
-      `&body=NamÅn: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AMeddelande:%0D%0A${message}`
-
-    // Öppna länken
-    window.location.href = mailto
-
-    // Avsluta submittet
-    setSubmitting(false)
-  }
-
   return (
     <>
       <h1 className="text-4xl font-serif font-extrabold text-slate-800 mb-6 text-center">
         KONTAKT
       </h1>
 
+      {/* 
+        Lägg in action="mailto:…" så att submit öppnar användarens mailklient.
+        method="POST" + encType text/plain ger grundläggande mejl-kropp.
+      */}
       <form
-        onSubmit={handleSubmit}
+        action="mailto:info@fredrikekholm.se"
+        method="POST"
+        encType="text/plain"
         className="space-y-6 max-w-lg mx-auto"
       >
         {/* Namn */}
@@ -48,7 +29,7 @@ export default function Kontakt() {
           <input
             type="text"
             id="name"
-            name="name"
+            name="Namn"
             required
             placeholder="Ditt namn"
             className="w-full border border-slate-400 rounded px-4 py-2 bg-[#d6d0c0] text-slate-900
@@ -64,7 +45,7 @@ export default function Kontakt() {
           <input
             type="email"
             id="email"
-            name="email"
+            name="E-post"
             required
             placeholder="din@epost.se"
             className="w-full border border-slate-400 rounded px-4 py-2 bg-[#d6d0c0] text-slate-900
@@ -79,7 +60,7 @@ export default function Kontakt() {
           </label>
           <textarea
             id="message"
-            name="message"
+            name="Meddelande"
             required
             rows="5"
             placeholder="Skriv ditt meddelande här"
@@ -91,11 +72,10 @@ export default function Kontakt() {
         {/* Skicka‐knapp */}
         <button
           type="submit"
-          disabled={submitting}
           className="w-full bg-slate-800 text-white px-6 py-3 rounded 
-                     hover:bg-slate-900 transition disabled:opacity-50"
+                     hover:bg-slate-900 transition"
         >
-          {submitting ? 'Öppnar mailklient…' : 'Skicka meddelande'}
+          Skicka meddelande
         </button>
       </form>
     </>
