@@ -29,11 +29,6 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/metod.js"
-    ],
-    "/om-mig": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/om-mig.js"
     ]
   },
   "ampFirstPages": []

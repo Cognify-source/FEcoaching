@@ -70,7 +70,7 @@ export default function Metod() {
           tydliga kommunikationsverktyg, somatisk närvaro, lösningsorienterade
           frågor och visuella tekniker. Jag växlar mellan djup inre dialog och
           konkreta handlings­steg som stärker det du vill se mer av i
-          vardagen – vare sig det gäller stress­reglering, relationer eller
+          vardagen – vare sig det gäller inre harmoni, relationer eller
           ledarskap.
         </p>
 
