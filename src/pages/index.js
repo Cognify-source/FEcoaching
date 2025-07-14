@@ -16,7 +16,7 @@ export default function Home() {
       <br />
 
       <p className="text-lg text-gray-600 mb-6">
-        Känner du att olika sidor av dig drar åt olika håll och skapar konflikt – i dig själv, i ditt
+        <strong>Känner du att</strong> olika sidor av dig drar åt olika håll och skapar konflikt – i dig själv, i ditt
         ledarskap eller i ditt team? Jag hjälper både privatpersoner och
         företag att möta och integrera sina inre delar så att de kan samarbeta i
         stället för att konkurrera. Min coaching använder principer från {" "}

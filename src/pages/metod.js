@@ -23,7 +23,7 @@ export default function Metod() {
         </div>
 
         <p>
-          Lyhördhet och empati, i kombination med principerna i&nbsp;
+          <strong>Lyhördhet och empati,</strong> i kombination med principerna i&nbsp;
           <a
             href="https://www.cnvc.org/"
             className="underline hover:text-gray-800"

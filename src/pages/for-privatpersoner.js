@@ -23,7 +23,7 @@ export default function ForPrivatpersoner() {
         </div>
 
         <p>
-          Känner du dig fast i gamla hjulspår? Tar din inre kritiker eller gamla mönster över
+          <strong>Känner du dig fast</strong> i gamla hjulspår? Tar din inre kritiker eller gamla mönster över
           och hindrar dig från att leva det liv du vill? Min coaching kan hjälpa dig att skapa
           mer inre harmoni och självmedkänsla, så att du kan fatta tydligare beslut, få ett rikare
           inre liv och manifestera ditt bästa jag.

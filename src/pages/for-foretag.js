@@ -21,7 +21,7 @@ export default function ForForetag() {
         </div>
 
         <p>
-          När era medarbetare drar åt olika håll blir organisationen splittrad –
+          <strong>När era medarbetare drar</strong> åt olika håll blir organisationen splittrad –
           beslut tar längre tid och energi går förlorad. Med min coaching guidar jag
           chefer och team till inre samstämmighet, färre konflikter och ökad harmoni.
         </p>
