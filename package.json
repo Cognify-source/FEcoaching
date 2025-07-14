@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "buildzip": "next build && zip -r site-build.zip out",
-    "zip": "zip -r project.zip . -x node_modules/**\\* .git/**\\* out/**\\*"
+    "zip": "zip -r project.zip . -x \"node_modules/***\" \".git/***\" \".next/***\" \"out/***\" \".vscode/***\" \"*.log\""
   },
   "dependencies": {
     "next": "latest",
