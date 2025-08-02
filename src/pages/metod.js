@@ -25,15 +25,6 @@ export default function Metod() {
         <p>
           <strong>Lyhördhet och empati,</strong> i kombination med principerna i&nbsp;
           <a
-            href="https://www.cnvc.org/"
-            className="underline hover:text-gray-800"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <em>Nonviolent Communication (NVC)</em>
-          </a>{" "}
-          och{" "}
-          <a
             href="https://ifs-institute.com/"
             className="underline hover:text-gray-800"
             target="_blank"
@@ -41,7 +32,18 @@ export default function Metod() {
           >
             <em>Internal Family Systems</em>
           </a>{" "}
-          (IFS) utgör kärnan i min coaching. Genom att ge språk åt känslor
+          (IFS)
+         
+          och{" "}
+           <a
+            href="https://www.cnvc.org/"
+            className="underline hover:text-gray-800"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <em>Nonviolent Communication (NVC)</em>
+          </a>{" "}
+          utgör kärnan i min coaching. Genom att ge språk åt känslor
           och behov utan dömande skapas ett inre klimat där alla dina delar vågar
           tala klarspråk. Tillsammans kartlägger vi dem, lyssnar på deras
           positiva intentioner och hjälper dem att samarbeta snarare än

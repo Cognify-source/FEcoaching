@@ -36,7 +36,7 @@ export default function OmMig() {
           >
             <em>Nonviolent Communication (NVC)</em>
           </a>{" "}
-          är centrala komponenter i verktygslådan.
+          ingår i verktygslådan.
         </p>
         <p>
           Min coaching har av klienter beskrivits som lyhörd, mjuk och samtidigt handfast.
